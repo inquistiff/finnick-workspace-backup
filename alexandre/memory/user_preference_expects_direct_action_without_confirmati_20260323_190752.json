@@ -1,0 +1,8 @@
+{
+  "category": "user_preference",
+  "title": "Expects direct action without confirmation loops",
+  "summary": "Tiffany prefers Alexandre to execute tool actions (close tasks, update statuses) immediately without asking for confirmation\u2014she values speed and decisiveness.",
+  "confidence": 0.9,
+  "saved_at": "2026-03-23T19:07:52.032285",
+  "agent": "alexandre"
+}

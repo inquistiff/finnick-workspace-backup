@@ -1,0 +1,86 @@
+[
+  {
+    "file": "technical_alexandre_has_live_tool_access_confirmed_20260323_163625.json",
+    "category": "technical",
+    "title": "Alexandre has live tool access confirmed",
+    "summary": "All integration tools are live and functional: ClickUp, Oura, Google Calendar, Fireflies, Gmail, Notion, task commenting, and status updates. Real data is being retrieved, not mocked.",
+    "saved_at": "2026-03-23T16:36:25.995503"
+  },
+  {
+    "file": "technical_cross_session_memory_capability_exists_20260323_163625.json",
+    "category": "technical",
+    "title": "Cross-session memory capability exists",
+    "summary": "Alexandre can retain and recall information between sessions through this memory system, enabling continuity in supporting Tiffany's work.",
+    "saved_at": "2026-03-23T16:36:25.995912"
+  },
+  {
+    "file": "technical_alexandre_can_take_immediate_corrective__20260323_163625.json",
+    "category": "technical",
+    "title": "Alexandre can take immediate corrective action",
+    "summary": "Alexandre has the ability to fix issues in real-time during conversations, not just identify them.",
+    "saved_at": "2026-03-23T16:36:25.996276"
+  },
+  {
+    "file": "business_context_clickup_automation_documentation_in_slac_20260323_171848.json",
+    "category": "business_context",
+    "title": "ClickUp automation documentation in Slack thread",
+    "summary": "Tiffany created a video tutorial for a ClickUp automation and shared it with the Client Success team in a specific Slack thread; work requests about this automation should be directed there instead of to Tiffany.",
+    "saved_at": "2026-03-23T17:18:48.721375"
+  },
+  {
+    "file": "user_preference_route_cs_automation_requests_to_document_20260323_171848.json",
+    "category": "user_preference",
+    "title": "Route CS automation requests to documentation",
+    "summary": "When Client Success team requests help with ClickUp automations, direct them to the recorded video tutorial in Slack rather than escalating to Tiffany for support.",
+    "saved_at": "2026-03-23T17:18:48.722048"
+  },
+  {
+    "file": "user_preference_check_biometric_data_for_energy_insights_20260323_183856.json",
+    "category": "user_preference",
+    "title": "Check biometric data for energy insights",
+    "summary": "Tiffany asks about her daily energy levels and appreciates detailed breakdowns of readiness, sleep, HRV, and recovery metrics to inform work planning decisions.",
+    "saved_at": "2026-03-23T18:38:56.877864"
+  },
+  {
+    "file": "user_preference_wants_transparent_capability_assessment_20260323_183932.json",
+    "category": "user_preference",
+    "title": "Wants transparent capability assessment",
+    "summary": "Tiffany directly asks Alexandre to give honest assessments of tool access, memory retention, and what actions can/cannot be taken\u2014she values straightforward answers about limitations and capabilities.",
+    "saved_at": "2026-03-23T18:39:32.254233"
+  },
+  {
+    "file": "technical_clickup_task_operations_are_in_scope_20260323_183932.json",
+    "category": "technical",
+    "title": "ClickUp task operations are in scope",
+    "summary": "Tiffany explicitly confirmed that Alexandre should be able to update, close, and work on ClickUp tasks\u2014these are expected operational capabilities.",
+    "saved_at": "2026-03-23T18:39:32.254759"
+  },
+  {
+    "file": "technical_cron_job_creation_editing_capability_exp_20260323_183932.json",
+    "category": "technical",
+    "title": "Cron job creation/editing capability expected",
+    "summary": "Tiffany asked about cron job creation and editing as a capability\u2014she expects Alexandre to be able to handle automation scheduling tasks.",
+    "saved_at": "2026-03-23T18:39:32.255117"
+  },
+  {
+    "file": "user_preference_expects_direct_action_without_confirmati_20260323_190752.json",
+    "category": "user_preference",
+    "title": "Expects direct action without confirmation loops",
+    "summary": "Tiffany prefers Alexandre to execute tool actions (close tasks, update statuses) immediately without asking for confirmation\u2014she values speed and decisiveness.",
+    "saved_at": "2026-03-23T19:07:52.032285"
+  },
+  {
+    "file": "user_preference_values_honest_self_assessment_of_capabil_20260323_190752.json",
+    "category": "user_preference",
+    "title": "Values honest self-assessment of capabilities",
+    "summary": "Tiffany directly asks Alexandre to be transparent about limitations, gaps, and what can/cannot be done\u2014she appreciates candid capability assessments over false claims.",
+    "saved_at": "2026-03-23T19:07:52.033102"
+  },
+  {
+    "file": "technical_file_based_memory_persists_across_sessio_20260323_193018.json",
+    "category": "technical",
+    "title": "File-based memory persists across sessions",
+    "summary": "Alexandre's memory is stored at `/opt/openclaw/data/workspace/alexandre/memory/` on the VPS, loaded at startup and written after significant interactions, enabling cross-session context retention.",
+    "saved_at": "2026-03-23T19:30:18.178149"
+  }
+]

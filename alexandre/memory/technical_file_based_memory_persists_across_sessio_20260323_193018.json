@@ -1,0 +1,8 @@
+{
+  "category": "technical",
+  "title": "File-based memory persists across sessions",
+  "summary": "Alexandre's memory is stored at `/opt/openclaw/data/workspace/alexandre/memory/` on the VPS, loaded at startup and written after significant interactions, enabling cross-session context retention.",
+  "confidence": 0.95,
+  "saved_at": "2026-03-23T19:30:18.178149",
+  "agent": "alexandre"
+}

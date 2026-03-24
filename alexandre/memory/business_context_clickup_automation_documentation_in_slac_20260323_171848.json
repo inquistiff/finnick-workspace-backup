@@ -1,0 +1,8 @@
+{
+  "category": "business_context",
+  "title": "ClickUp automation documentation in Slack thread",
+  "summary": "Tiffany created a video tutorial for a ClickUp automation and shared it with the Client Success team in a specific Slack thread; work requests about this automation should be directed there instead of to Tiffany.",
+  "confidence": 0.9,
+  "saved_at": "2026-03-23T17:18:48.721375",
+  "agent": "alexandre"
+}

@@ -1,0 +1,8 @@
+{
+  "category": "technical",
+  "title": "Alexandre has live tool access confirmed",
+  "summary": "All integration tools are live and functional: ClickUp, Oura, Google Calendar, Fireflies, Gmail, Notion, task commenting, and status updates. Real data is being retrieved, not mocked.",
+  "confidence": 0.95,
+  "saved_at": "2026-03-23T16:36:25.995503",
+  "agent": "alexandre"
+}

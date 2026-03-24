@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "source": "Knox County Schools",
+    "url": "https://www.knoxschools.org/about/calendar",
+    "last_updated": "2026-03-23",
+    "update_schedule": "Each July/August when new year calendar is published",
+    "snow_day_note": "Calendar allows up to 8 cancellations for inclement weather before makeup days required. Monitor Dec-Feb via snowday-monitor.py."
+  },
+
+  "2025_2026": {
+    "_note": "Current school year. Remaining dates as of March 2026.",
+    "last_day_students": "2026-05-21",
+    "last_day_teachers": "2026-05-22",
+    "remaining_student_holidays": [
+      { "date": "2026-05-05", "reason": "Systemwide In-Service Day (school-based)" }
+    ],
+    "remaining_half_days": [
+      { "date": "2026-05-21", "reason": "Last Day for Students (Half-Day) — End of Second Semester" }
+    ],
+    "remaining_school_closed": [
+      { "date": "2026-06-19", "reason": "Juneteenth" }
+    ],
+    "grading_period_ends": [
+      { "date": "2026-05-21", "period": "Fourth 9-weeks / Second Semester" }
+    ]
+  },
+
+  "2026_2027": {
+    "first_day_teachers": "2026-08-03",
+    "first_day_students": "2026-08-10",
+    "last_day_students": "2027-05-26",
+    "last_day_teachers": "2027-05-27",
+
+    "breaks": {
+      "fall_break":      { "start": "2026-10-05", "end": "2026-10-09" },
+      "thanksgiving":    { "start": "2026-11-25", "end": "2026-11-27" },
+      "winter_break":    { "start": "2026-12-21", "end": "2027-01-01" },
+      "spring_break":    { "start": "2027-03-08", "end": "2027-03-12" }
+    },
+
+    "school_closed": [
+      { "date": "2026-09-07",  "reason": "Labor Day" },
+      { "date": "2026-11-25",  "reason": "Thanksgiving" },
+      { "date": "2026-11-26",  "reason": "Thanksgiving" },
+      { "date": "2026-11-27",  "reason": "Thanksgiving" },
+      { "date": "2026-12-21",  "reason": "Winter Break start" },
+      { "date": "2027-01-18",  "reason": "Martin Luther King Jr. Day" },
+      { "date": "2027-03-26",  "reason": "Holiday" },
+      { "date": "2027-03-29",  "reason": "Holiday (Easter)" },
+      { "date": "2027-06-18",  "reason": "Juneteenth" }
+    ],
+
+    "student_holidays": [
+      { "date": "2026-11-03",  "reason": "Systemwide In-Service Day" },
+      { "date": "2027-02-15",  "reason": "Systemwide In-Service Day" },
+      { "date": "2027-04-07",  "reason": "Systemwide In-Service Day" }
+    ],
+
+    "half_days_students": [
+      { "date": "2026-08-10",  "reason": "First Day of School" },
+      { "date": "2026-09-16",  "reason": "Half Day" },
+      { "date": "2026-11-18",  "reason": "Half Day" },
+      { "date": "2026-12-18",  "reason": "Half Day — End of Semester" },
+      { "date": "2027-01-27",  "reason": "Half Day" },
+      { "date": "2027-03-24",  "reason": "Half Day" },
+      { "date": "2027-05-26",  "reason": "Half Day — Last Day" }
+    ],
+
+    "grading_period_ends": [
+      { "date": "2026-09-09",  "period": "4.5 weeks" },
+      { "date": "2026-10-16",  "period": "First 9 weeks" },
+      { "date": "2026-11-17",  "period": "4.5 weeks" },
+      { "date": "2026-12-18",  "period": "Second 9 weeks / First Semester" },
+      { "date": "2027-02-05",  "period": "4.5 weeks" },
+      { "date": "2027-03-19",  "period": "Third 9 weeks" },
+      { "date": "2027-04-23",  "period": "4.5 weeks" },
+      { "date": "2027-05-26",  "period": "Fourth 9 weeks / Second Semester" }
+    ],
+
+    "orientation": [
+      { "date": "2026-08-07",  "reason": "6th and 9th Grade Orientation" }
+    ]
+  }
+}

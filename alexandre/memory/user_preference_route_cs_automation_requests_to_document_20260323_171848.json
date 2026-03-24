@@ -1,0 +1,8 @@
+{
+  "category": "user_preference",
+  "title": "Route CS automation requests to documentation",
+  "summary": "When Client Success team requests help with ClickUp automations, direct them to the recorded video tutorial in Slack rather than escalating to Tiffany for support.",
+  "confidence": 0.85,
+  "saved_at": "2026-03-23T17:18:48.722048",
+  "agent": "alexandre"
+}
