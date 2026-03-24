@@ -1,0 +1,759 @@
+# iCloud Calendar (Published Feed) — Parsed
+
+This note is an *ingest* of the published iCloud calendar feed for Finnick/OpenClaw memory search.
+
+## Events (raw-ish)
+
+- **Baylee Dr appt** | start: `20240417T082000` | end: `20240417T092000` | loc: 1975 Town Center Blvd., Knoxville, TN 37922
+- **Tiffany's dentist cleaning** | start: `20211004T110000` | end: `20211004T120000`
+- **Orthadontist Pickering** | start: `20230511T085000` | end: `20230511T095000`
+- **Stay: Victorian W. Nashville apartment. great location!** | start: `20220128` | end: `20220130` | loc: Victorian W. Nashville apartment. great location! 3521 Park Avenue Nashville TN 37209 US
+- **House Hunting** | start: `20220907T183000` | end: `20220907T193000` | loc: 10238 Autumn Valley Ln Knoxville, TN, United States
+- **Ultrasound** | start: `20230105T141500` | end: `20230105T151500` | loc: The University of Tennessee Medical Center 1928 Alcoa Hwy Knoxville TN 37920 United States
+- **House Showing** | start: `20220905T163000` | end: `20220905T170000`
+- **Consult** | start: `20211118T110000` | end: `20211118T120000` | loc: Shea Aesthetic Clinic 232 W Tennessee Ave, Oak Ridge, TN  37830, United States
+- **Reservation: upcoming reservation for Miel Restaurant & Bar on Friday, December 31, 2021, 8:15 PM** | start: `20211231T201500` | end: `20211231T214500` | loc: upcoming reservation for Miel Restaurant & Bar on Friday, December 31, 2021, 8:15 PM 343 53rd Avenue North Nashville TN 37209
+- **Ortho - Baylee** | start: `20230816T093000` | end: `20230816T103000` | loc: East Tennessee Orthodontics 1143 Oak Ridge Tpke, Unit 206, Oak Ridge, TN  37830, United States
+- **Baylee Counseling** | start: `20211021T170000` | end: `20211021T180000` | loc: Telehealth
+- **Fireplace** | start: `20221202T130000` | end: `20221202T180000`
+- **Extension Maintenance w/ partial OR color at Blonded Hair Co.** | start: `20240413T140000Z` | end: `20240413T170000Z` | loc: 10843 Kingston Pike, Suite 9, FARRAGUT, TN, 37934
+- **Tracy extension consultation** | start: `20220305T160000` | end: `20220305T170000` | loc: Messi heads
+- **Baylee follow-up orthodontist** | start: `20250217T113500` | end: `20250217T123500`
+- **Crawl Space Ninja** | start: `20221222T160000` | end: `20221222T170000` | loc: Reviewing downspouts and attic fan
+- **ChatGPT Quick Start Workshop** | start: `20230726T180000` | end: `20230726T193000`
+- **Zoom Call** | start: `20220122T120000` | end: `20220122T123000`
+- **Dr Berg Team Sync** | start: `20220729T163000` | end: `20220729T170000` | loc: www.thebusinesscatalyst.co.uk/zoom
+- **Dr Berg internal catchup** | start: `20220413T160000` | end: `20220413T170000` | loc: www.thebusinesscatalyst.co.uk/zoom
+- **Attic** | start: `20211027T103000` | end: `20211027T181500`
+- **Emily and Orthadontist** | start: `20210824T130000` | end: `20210824T140000`
+- **Our wedding** | start: `20220613T160000` | end: `20220613T220000` | loc: 101 Sky Lounge 101 E Main St, Sevierville, TN  37862, United States
+- **Reservation: Coastal Fish Company** | start: `20230711T181500` | end: `20230711T194500` | loc: Coastal Fish Company 415 Great View Dr E, Cordova, TN  38018, United States
+- **Hair** | start: `20230613T170000` | end: `20230613T180000` | loc: 102 s campbell station road  suite 16
+- **House showing** | start: `20220907T183000` | end: `20220907T190000` | loc: 12709 Rocky Slope Ln Knoxville, TN, United States
+- **Cat Training** | start: `20240217T130000` | end: `20240217T180000`
+- **AI EDGE VLS-E Workshp** | start: `20230928T210000` | end: `20230928T233000`
+- **Grief Camp** | start: `20230923` | end: `20230925` | loc: 270 Fort Sanders West Blvd Knoxville, TN, United States
+- **Barnett Roofing** | start: `20221207T094500` | end: `20221207T104500`
+- **Core Values Workshop** | start: `20230214T170000` | end: `20230214T180000`
+- **Adjuster** | start: `20230104T143000` | end: `20230104T153000`
+- **Craig Flight** | start: `20241108T220000` | end: `20241108T230000` | loc: Denver, CO United States
+- **Lisa - Drop off at airport** | start: `20231103T173000` | end: `20231103T183000`
+- **Breck birthday** | start: `20250303T220000` | end: `20250303T230000`
+- **Discount Tire** | start: `20240812T101500` | end: `20240812T111500` | loc: Discount Tire 11201 Kingston Pike, Farragut, TN 37934, United States
+- **Orthopedic Appt for Baylee** | start: `20220908T084000` | end: `20220908T094000` | loc: Knoxville Orthopaedic Clinic 1422 Old Weisgarber Rd, Knoxville, TN  37909, United States
+- **Dinner Osteria Stella** | start: `20241231T203000` | end: `20241231T235500`
+- **Emily Kopek appt Craig** | start: `20240917T090000` | end: `20240917T100000`
+- **Reservation: The Melting Pot - Knoxville** | start: `20220730T234500Z` | end: `20220731T011500Z` | loc: The Melting Pot - Knoxville 111 North Central Street Knoxville TN 37902 United States
+- **Dentist - Tiffany** | start: `20230613T130000` | end: `20230613T140000` | loc: Beaver Creek DENTAL Kyle Smith, DDS 7652 Oak Ridge Hwy, Knoxville, TN  37931, United States
+- **Skin wellness Craig** | start: `20240214T082000` | end: `20240214T092000`
+- **Flight: UA 355 from DEN to BNA** | start: `20251222T094000` | end: `20251222T132100` | loc: Denver International Airport 8500 Peña Blvd Denver CO 80249-6340 United States
+- **House showing** | start: `20220907T160000` | end: `20220907T163000`
+- **Dr Berg Team Sync** | start: `20220513T150000` | end: `20220513T153000` | loc: www.thebusinesscatalyst.co.uk/zoom
+- **Reservation confirmed for Atlanta** | start: `20230804T160000` | end: `20230804T170000` | loc: 1609 Bridgeport Dr NW, Atlanta, GA 30318, USA
+- **Classical French Seafood Fare** | start: `20230930T170000` | end: `20230930T200000` | loc: The Cutting Edge Classroom
+- **Carpet install on stairs** | start: `20210928T091500` | end: `20210928T153000`
+- **Flush water filter** | start: `20230314T170000` | end: `20230314T180000`
+- **Talk to parents** | start: `20211207T203000` | end: `20211207T213000`
+- **Baylee Tutoring** | start: `20220113T170000` | end: `20220113T183000` | loc: 10115 Highgate Circle Knoxville TN 37931 United States
+- **Eyebrows  at European Wax Center** | start: `20240914T104500` | end: `20240914T110000` | loc: Knoxville, 11391 Parkside Drive, Knoxville, Tennessee, United States, 37934
+- **Nexus interview** | start: `20250317T113000` | end: `20250317T125000` | loc: 2250 Whirlpool St, Niagara Falls, NY 14305, USA
+- **Dermatologist appointment** | start: `20220408T133000Z` | end: `20220408T145000Z`
+- **Baylee Dr Follow up appt - Hardin Valley Pediatrics** | start: `20240307T100000` | end: `20240307T105000` | loc: Hardin Valley Pediatrics, 10857 Hardin Valley Rd, Knoxville, TN 37932, USA
+- **Check into hotel** | start: `20220612T130000` | end: `20220612T140000`
+- **Stay: Holiday Inn Express® Hotels & Resorts** | start: `20250623` | end: `20250625` | loc: Holiday Inn Express® Hotels & Resorts 1561 Halifax Drive Columbia Tennessee 38401 United States
+- **Baylee Counseling** | start: `20211101T160000` | end: `20211101T170000` | loc: Telehealth
+- **Day off together** | start: `20210902` | end: `20210903`
+- **YOURS NAIL SPA  - Remind Tiffany Bridges** | start: `20230228T141500` | end: `20230228T151500` | loc: YOURS nail spa 10915 Parkside Dr, Knoxville, TN  37934, United States
+- **Emily Kopek appt Craig in person** | start: `20220707T090000` | end: `20220707T100000`
+- **Nails** | start: `20220120T100000` | end: `20220120T120000`
+- **School Holiday** | start: `20220314` | end: `20220319`
+- **Christmas with parents** | start: `20211212T160000` | end: `20211212T170000` | loc: 721 Broome Rd Knoxville TN 37909 United States
+- **Kaelyn’s birthday party** | start: `20220326T111500` | end: `20220326T131500` | loc: 2801 e broadway maryville tn
+- **The Cutting Edge Lawn and Landscaping, LLC quote for drainage and re-grading** | start: `20221201T133000` | end: `20221201T143000`
+- **Concrete pads Faustino** | start: `20210904T140000` | end: `20210904T150000`
+- **Tutoring** | start: `20220901T160000` | end: `20220901T170000`
+- **Baylee Dentist** | start: `20220203T080000` | end: `20220203T090000` | loc: Knoxville Pediatric Dentistry 705 Gate Ln, Unit 101, Knoxville, TN 37909, United States
+- **Stephanie and Kaelyn coming over** | start: `20220429T173000` | end: `20220429T183000`
+- **Baylee pediatrician (Samantha pollard)** | start: `20260303T130000` | end: `20260303T140000`
+- **Scotlyn's 7th Birthday** | start: `20220423T153000` | end: `20220423T173000` | loc: 10217 Highgate Cir, Knoxville, TN 37931-3125, United States
+- **Stay: The Amish Lodge** | start: `20230617` | end: `20230620` | loc: The Amish Lodge 111 Park Street Ethridge TN 38456 US
+- **KLASS Center Inquiry** | start: `20220328T090000` | end: `20220328T120000` | loc: 413 Claxton Education Complex 1122 Volunteer Boulevard Knoxville, Tennessee 37996-3452
+- **Knoxville return flight (Knoxville 11am)** | start: `20241202T004500` | end: `20241202T014500`
+- **Tiffany Dr appt** | start: `20221208T143000` | end: `20221208T150000` | loc: Emily - Phone
+- **Zoe - Boarding Dates** | start: `20251001T110000` | end: `20251001T124500`
+- **Wedding brunch** | start: `20220614T130000` | end: `20220614T150000` | loc: Seasons 101 101 E Main St, Sevierville, TN  37862, United States
+- **House Cleaner** | start: `20210929T093000` | end: `20210929T153000`
+- **Reservation: Seasons Innovative Bar & Grille** | start: `20250816T193000` | end: `20250816T210000` | loc: Seasons Innovative Bar & Grille 11605 Parkside Dr, Knoxville, TN 37934, United States
+- **Honda service** | start: `20221001T103000` | end: `20221001T113000`
+- **Baylee phone repair** | start: `20220409T140000` | end: `20220409T150000` | loc: 111 Center Park Drive, Suite 150 FARRAGUT, TN 37922
+- **Imagine dragons concert** | start: `20220828T183000` | end: `20220828T213000`
+- **Orthadontist Pickering** | start: `20221128T143000` | end: `20221128T150000`
+- **Dr Appt - Emaily** | start: `20221003T093000` | end: `20221003T103000`
+- **Laura Wheat** | start: `20240814T153000` | end: `20240814T160000`
+- **Stay: Holiday Inn Express & Suites - Columbus - Worthington by IHG** | start: `20250314` | end: `20250316` | loc: Holiday Inn Express & Suites - Columbus - Worthington by IHG 55 Hutchinson Avenue Columbus 43235 United States
+- **Emily Kopek appt Craig** | start: `20210831T111500` | end: `20210831T121500`
+- **Get my pet vaccinated for Astro** | start: `20220405T110000` | end: `20220405T120000`
+- **Complete physical form online** | start: `20230129T140000` | end: `20230129T150000`
+- **Take Zoe at 2pm to kennel** | start: `20211214T140000` | end: `20211214T150000`
+- **Ductwork** | start: `20221223T080000` | end: `20221223T090000`
+- **Overholt skin** | start: `20220804T080500` | end: `20220804T090500`
+- **Nail appointment** | start: `20211104T100000` | end: `20211104T120000`
+- **Baylee Eye appt** | start: `20221020T083000` | end: `20221020T093000` | loc: OAK RIDGE VISION CENTER 1143 Oak Ridge Tpke, Unit 103, Oak Ridge, TN  37830, United States
+- **Baylee Tutoring** | start: `20210929T173000` | end: `20210929T183000` | loc: 10115 Highgate Circle Knoxville TN 37931 United States
+- **Family movie night** | start: `20220430T200000` | end: `20220430T220000`
+- **Tiffany Dr. Appt** | start: `20240408T090000` | end: `20240408T100000`
+- **Vet appt for annual vaccines @3:30** | start: `20260303T153000` | end: `20260303T163000`
+- **Baylee Orthodontist at @2pm** | start: `20260326T133000` | end: `20260326T152000`
+- **Dentist 9am** | start: `20230515T080000` | end: `20230515T090000`
+- **Lunch w parents** | start: `20231104T120000` | end: `20231104T130000`
+- **Steph - help with move** | start: `20220903T093000` | end: `20220903T123000`
+- **House Cleaner** | start: `20211001T093000` | end: `20211001T153000`
+- **Baylee Band Concert** | start: `20241203T173000` | end: `20241203T183000`
+- **Gardeners** | start: `20211114T091500` | end: `20211114T163000`
+- **Flight from Toronto to Edmonton, departing at 18h55 (local time)** | start: `20231222T185500` | end: `20231222T231800` | loc: - AC173
+- **Play date with Piper** | start: `20230513T130000` | end: `20230513T140000` | loc: McPhee park farragut Tn
+- **Flight: G4 2645 from TYS to SFB** | start: `20220217T120600` | end: `20220217T133900` | loc: McGhee Tyson Airport 2055 Alcoa Hwy, Knoxville, TN 37701, United States
+- **Mike** | start: `20230121T120000` | end: `20230121T130000` | loc: Landscape quote
+- **Stay: Comfort Inn & Suites Lookout Mountain** | start: `20240726` | end: `20240729` | loc: Comfort Inn & Suites Lookout Mountain
+- **Safelite repair appointment** | start: `20240110T080000` | end: `20240110T170000` | loc: 318 SUNDOWN RD
+- **Hoe Down event** | start: `20211105T170000` | end: `20211105T200000` | loc: Hardin Valley Elementary School 11445 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Attic - Kris** | start: `20211026T101500` | end: `20211026T181500`
+- **East Tennessee Gas Specialties - Job scheduled** | start: `20250115T140000` | end: `20250115T180000` | loc: 318 Sundown Rd, Knoxville, TN 37934
+- **5th Grade Parent Night** | start: `20230831T170000` | end: `20230831T180000` | loc: Farragut Intermediate School 208 W End Ave, Farragut, TN 37934, United States
+- **Take Zoe to Kennel** | start: `20220710T160000` | end: `20220710T170000`
+- **Advent Electric** | start: `20221219T034500` | end: `20221219T074500`
+- **Emily Kopek testing Craig** | start: `20220411T100000` | end: `20220411T110000`
+- **Reservation: The Melting Pot - Knoxville** | start: `20241026T201500` | end: `20241026T214500` | loc: The Melting Pot - Knoxville 111 North Central Street Knoxville TN 37902 United States
+- **Nails** | start: `20221203T130000` | end: `20221203T150000` | loc: Luxury Nail Bar 11075 Parkside Dr, Knoxville, TN  37934, United States
+- **Pickup Craig’s suit** | start: `20260310T170000` | end: `20260310T180000` | loc: Dillard's 7600 Kingston Pike, Unit 300, Knoxville, TN 37919, United States
+- **Craig Dentist** | start: `20220323T110000` | end: `20220323T120000`
+- **Tiffany Working** | start: `20210925T130000` | end: `20210925T150000`
+- **Baylee's hair appt** | start: `20230205T150000` | end: `20230205T160000`
+- **Luxury Treehouse** | start: `20211010` | end: `20211014` | loc: 6434 Morton Rd Greenbrier, TN, United States
+- **Electrician** | start: `20221219T090000` | end: `20221219T120000`
+- **Baylee Enrichment Course** | start: `20211006T154500` | end: `20211006T164500` | loc: Hardin Valley Elementary School 11445 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Appointment at Knox Institute of Dermatology** | start: `20220824T144500Z` | end: `20220824T144500Z` | loc: Knox Institute of Dermatology
+- **Cooks Pest Control - Termite treatment on garage** | start: `20210907T113000` | end: `20210907T123000`
+- **Water Latern Festival** | start: `20240727T180000` | end: `20240727T210000` | loc: Chilhowee Park & Exposition Center 3301 E Magnolia Ave Knoxville, TN 37914
+- **Baylee concert** | start: `20251209T190000` | end: `20251209T200000`
+- **School Pic Day** | start: `20211006T081500` | end: `20211006T091500`
+- **House showing** | start: `20220821T143000` | end: `20220821T163000`
+- **HOA Meeting** | start: `20210828T100000` | end: `20210828T110000`
+- **Teach JA Finance Class** | start: `20220914T140000` | end: `20220914T144500` | loc: Hardin Valley Academy 11345 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Baylee OPT** | start: `20241227T100000` | end: `20241227T130000` | loc: The Middle Path, Inc 245 S Peters Rd, Knoxville, TN  37923, United States
+- **McPhee park end of year party** | start: `20230523T173000` | end: `20230523T183000`
+- **Drive home from Nashville** | start: `20221227T110000` | end: `20221227T120000`
+- **MRI** | start: `20240609T120000` | end: `20240609T130000` | loc: 1924 Alcoa Hwy Knoxville, TN, United States
+- **AC quote / home inspection** | start: `20210828T113000` | end: `20210828T123000`
+- **Passport appointment** | start: `20220913T110000` | end: `20220913T120000`
+- **Car service** | start: `20240525T090000` | end: `20240525T120000` | loc: AutoNation Honda West Knoxville 10117 Parkside Dr, Knoxville, TN  37922, United States
+- **Parans party at 6pm** | start: `20221217T170000` | end: `20221217T180000`
+- **European Auto Garage car drop off** | start: `20230104T121500` | end: `20230104T133000` | loc: 1229 Lovell Rd Knoxville TN 37932
+- **Reservation confirmed for Atlanta** | start: `20230806T110000` | end: `20230806T120000` | loc: 1609 Bridgeport Dr NW, Atlanta, GA 30318, USA
+- **Family movie night** | start: `20220827T190000` | end: `20220827T210000`
+- **Birthday Party - Luci** | start: `20240817T150000` | end: `20240817T160000` | loc: 12507 Pony Express Dr Farragut, TN, United States
+- **TIffany Group track, Lisa** | start: `20220628T150000` | end: `20220628T160000` | loc: www.thebusinesscatalyst.co.uk/zoom
+- **A Sears Virtual Technician may text or call you to discuss the issue with your appliance. Responding will allow your Technician to have what is needed to make a successful repair on the 1st trip to your home.** | start: `20240530T080000` | end: `20240530T170000`
+- **Breck and my parents fixing kitchen** | start: `20230130T100000` | end: `20230130T130000`
+- **House showing** | start: `20220829T153000` | end: `20220829T163000` | loc: 12709 Rocky Slope Ln Knoxville, TN, United States
+- **Car service** | start: `20220117T073000` | end: `20220117T083000` | loc: Honda west
+- **Zoe - Boarding Dates** | start: `20240310` | end: `20240319`
+- **Flight: AC 173 from YYZ to YEG** | start: `20211215T185500` | end: `20211215T211100` | loc: Toronto Pearson International Airport 6301 Silver Dart Dr, Mississauga ON  L5P 1B2, Canada
+- **Baylee GI appointment** | start: `20250508T081000` | end: `20250508T091000`
+- **Labcorp - Appointment Confirmation Details** | start: `20221230T124500` | end: `20221230T134500` | loc: 5779 CREEKWOOD PARK BLVD, SUITE 240, Lenoir City, TN, 37772
+- **Thank you for your reservation at Dinner in the Sky! [Reservation:R.5063E]** | start: `20220712T193000` | end: `20220712T203000`
+- **Open House** | start: `20220807T144000` | end: `20220807T150000` | loc: 12709 Rocky Slope Ln Knoxville, TN, United States
+- **Birthday Brunch** | start: `20220807T121500` | end: `20220807T143000` | loc: Gourmet's Market & Cafe 5107 Kingston Pike, Knoxville, TN  37919, United States
+- **Pickering Orthodontist** | start: `20211021T105000` | end: `20211021T115000`
+- **Birthday Dinner** | start: `20241101T190000` | end: `20241101T211500` | loc: P.F. Chang's 6741 Kingston Pike, Knoxville, TN  37919, United States
+- **Nails** | start: `20220723T130000` | end: `20220723T143000` | loc: Zen Nail Bar 9201 Middlebrook Pike, Knoxville, TN  37931, United States
+- **Baylee birthday** | start: `20230416T160000` | end: `20230416T210000` | loc: 721 Broome Rd Knoxville TN 37909 United States
+- **Garage door opener install** | start: `20230102T133000` | end: `20230102T143000` | loc: 318 Sundown Rd Knoxville, TN 37934
+- **Baylee eyebrows** | start: `20260228T134500` | end: `20260228T144500` | loc: European Wax Center 11391 Parkside Dr, Knoxville, TN  37934, United States
+- **Brunch w Stephanie** | start: `20231029T110000` | end: `20231029T140000` | loc: Gourmet's Market & Cafe 5107 Kingston Pike, Knoxville, TN  37919, United States
+- **Dave & Tiffany - Document Course** | start: `20220824T130000` | end: `20220824T140000`
+- **Meridith Overholt -saw Janet before-skin wellness** | start: `20240411T094500` | end: `20240411T104500`
+- **Reservation: upcoming reservation for Oliver Royale on Wednesday, November 1, 2023, 7:15 PM** | start: `20231101T191500` | end: `20231101T204500` | loc: upcoming reservation for Oliver Royale on Wednesday, November 1, 2023, 7:15 PM 5 Market Square Knoxville TN 37902
+- **Baylee counseling** | start: `20231130T173000` | end: `20231130T183000`
+- **Hello tech camera install** | start: `20221217T153000` | end: `20221217T163000`
+- **Orthadontist Pickering** | start: `20230410T083000` | end: `20230410T093000`
+- **Emily Kopek appt Craig** | start: `20231214T160000` | end: `20231214T170000`
+- **Reservation at KOYO Knoxville for 2** | start: `20230204T183000` | end: `20230204T203000` | loc: 416 Clinch Ave, Knoxville, TN 37902-2101
+- **Chiropractor (Tiffany & Baylee)** | start: `20240307T111500` | end: `20240307T133500` | loc: Jacobs Chiropractic, 1060 Lovell Rd Suite: 2, Knoxville, TN 37932, USA
+- **Flight: DL 4983 from TYS to LGA** | start: `20250821T112600` | end: `20250821T132900` | loc: McGhee Tyson Airport 2055 Alcoa Hwy, Alcoa, TN 37701, United States
+- **Reservation: KOYO Knoxville** | start: `20230204T183000` | end: `20230204T200000` | loc: KOYO Knoxville 416 Clinch Ave Knoxville TN 37902-2101 United States
+- **Last day of school** | start: `20220525` | end: `20220526`
+- **Zoe grooming** | start: `20230720T131500` | end: `20230720T141500`
+- **Pickup Baylee from school @ 20:00 (Dollywood Concert)** | start: `20260327T200000` | end: `20260327T205000`
+- **ChatGPT Quick Start Workshop** | start: `20230720T180000` | end: `20230720T193000`
+- **Craig Summit Sleep 8:20 am** | start: `20240711T082000` | end: `20240711T092000`
+- **Fireplace inspection** | start: `20220607T090000` | end: `20220607T100000`
+- **Electrician** | start: `20230206T090000` | end: `20230206T093000`
+- **Klass meeting** | start: `20220422T110000` | end: `20220422T120000` | loc: 413 Claxton Education Complex 1122 Volunteer Boulevard Knoxville, Tennessee 37996-3452
+- **Your appointment with Zen Nail Bar has been confirmed. {link}** | start: `20230404T121500` | end: `20230404T131500`
+- **Canada** | start: `20211215` | end: `20211228`
+- **Pick Zoe up** | start: `20220615T140000` | end: `20220615T150000`
+- **Marriage license** | start: `20220606T093000` | end: `20220606T120000`
+- **Baylee's flight to Boise** | start: `20220312T160000` | end: `20220312T170000` | loc: Nashville International Airport 1 Terminal Dr, Nashville, TN 37214, United States
+- **Baylee's flight to ID** | start: `20211227T170000` | end: `20211227T180000` | loc: Nashville International Airport 1 Terminal Dr, Nashville, TN 37214, United States
+- **Teach JA Finance Class** | start: `20220830T140000` | end: `20220830T144500` | loc: Hardin Valley Academy 11345 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Teach JA Finance Class** | start: `20220920T140000` | end: `20220920T144500` | loc: Hardin Valley Academy 11345 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Pool table delivery** | start: `20240227T100000` | end: `20240227T110000`
+- **Baylee horseback riding at Select Sport Horses with Miss Julia** | start: `20210925T134500` | end: `20210925T144500` | loc: 2304 W Gallaher Ferry Rd Knoxville, TN, United States
+- **Baylee horseback riding at Select Sport Horses with Miss Julia** | start: `20211023T110000` | end: `20211023T120000` | loc: 2304 W Gallaher Ferry Rd Knoxville, TN, United States
+- **Teach JA Finance Class** | start: `20220906T140000` | end: `20220906T144500` | loc: Hardin Valley Academy 11345 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Kyle looking at new house** | start: `20221130T090000` | end: `20221130T093000`
+- **Reservation: Fire & Salt** | start: `20230225T170000` | end: `20230225T183000` | loc: Fire & Salt 792 Briarcliff Ave, Oak Ridge, TN  37830, United States
+- **House showing** | start: `20220823T183000` | end: `20220823T190000` | loc: 2255 Misty Mountain Circle Knoxville, TN 37932
+- **Baylee IEP** | start: `20220520T144500Z` | end: `20220520T153500Z`
+- **Facial** | start: `20220316T153000Z` | end: `20220316T163000Z` | loc: Shea Aesthetic Clinic, 232 W Tennessee Ave, Oak Ridge, TN 37830, USA
+- **Honda Drop Off** | start: `20240810T080000` | end: `20240810T085000` | loc: AutoNation Honda West Knoxville, 10117 Parkside Dr, Knoxville, TN 37922, USA
+- **Flight: AC 7662 from BNA to YYZ** | start: `20211215T125500` | end: `20211215T155000` | loc: Nashville International Airport 1 Terminal Dr, Nashville, TN 37214, United States
+- **John Patrick Morgan from Creating - 90 Minutes** | start: `20220621T180000` | end: `20220621T193000` | loc: www.thebusinesscatalyst.co.uk/zoom
+- **Parent night** | start: `20250107T183000` | end: `20250107T193000`
+- **School Holiday** | start: `20220117` | end: `20220118`
+- **Tiffany's DR appt with Emily** | start: `20230118T133000` | end: `20230118T143000` | loc: 10420 Jackson Oaks Way, Suite 201 Knoxville, TN 37922
+- **Baylee's IEP Meeting** | start: `20240520T080000` | end: `20240520T090000`
+- **John Patrick Morgan from Creating - 90 Minutes** | start: `20220624T170000` | end: `20220624T183000` | loc: www.thebusinesscatalyst.co.uk/zoom
+- **Reservation: Chesapeake's West Knoxville** | start: `20240706T183000` | end: `20240706T200000` | loc: Chesapeake's West Knoxville 9630 Parkside Dr Knoxville TN 37922
+- **labcorp** | start: `20230117T131500` | end: `20230117T141500` | loc: Labcorp dutchtown
+- **(no title)** | start: `20230122` | end: `20230123`
+- **Meeting with Scott** | start: `20211204T160000` | end: `20211204T170000` | loc: 101 Sky Lounge 101 E Main St, Sevierville, TN  37862, United States
+- **Welcome to the 23/24 School Year! - Meet the Teacher** | start: `20230807T040000` | end: `20230807T060000`
+- **Optometrist** | start: `20230508T090000` | end: `20230508T100000`
+- **Craig Booster shot** | start: `20211202T113000` | end: `20211202T123000`
+- **Church breakfast** | start: `20220813T090000` | end: `20220813T110000` | loc: West Park Baptist Church 8833 Middlebrook Pike, Knoxville, TN  37923, United States
+- **Eyebrows  at European Wax Center** | start: `20240914T103000` | end: `20240914T104500` | loc: Knoxville, 11391 Parkside Drive, Knoxville, Tennessee, United States, 37934
+- **Baylee therapist meeting** | start: `20240502T113000` | end: `20240502T123000`
+- **Baylee Tutoring** | start: `20211006T173000` | end: `20211006T183000` | loc: 10115 Highgate Circle Knoxville TN 37931 United States
+- **Drivers License Appt** | start: `20221209T144000` | end: `20221209T154000` | loc: 430 Montbrook Ln, Knoxville, TN 37919
+- **Overholt doctor appointment Craig** | start: `20210922T154500` | end: `20210922T164500`
+- **ACS March meeting conference** | start: `20230326T191500` | end: `20230330T201500`
+- **Hybrid Full Lash Set (Shari Lynch - Need Acceptance)** | start: `20230111T130000` | end: `20230111T153000` | loc: 6426 Baum Drive Suite E,Knoxville,Tennessee,37919
+- **Appointment with your dentist at Beaver Creek Dental** | start: `20221010T090000` | end: `20221010T100000` | loc: 7652 Oak Ridge Hwy Knoxville TN 37931
+- **Church with brunch** | start: `20221030T100000` | end: `20221030T110000`
+- **MnD wedding anniversary** | start: `20220709T150000` | end: `20220709T160000`
+- **KLASS Center Inquiry** | start: `20220404T090000` | end: `20220404T120000`
+- **Dentist 9am** | start: `20221031T090000` | end: `20221031T100000`
+- **Dentist Craig** | start: `20241220T140000` | end: `20241220T150000`
+- **Morgan Spurlock** | start: `20260319T103000` | end: `20260319T113000`
+- **Evans** | start: `20220823T110000` | end: `20220823T120000`
+- **Ben** | start: `20221130T120000` | end: `20221130T130000` | loc: Bathtub Quote
+- **Jadyn- half blonding, Jadyn- half blonding, ADD ON VIVID (Pulp Riot) at Willow + Oak Hair Lounge** | start: `20260307T130000` | end: `20260307T183000` | loc: 5816 Kingston Pike, Suite 3, KNOXVILLE, TN, 37919
+- **Honda service 7:30 to 10:30** | start: `20230601T083000` | end: `20230601T113000`
+- **Open enrollment** | start: `20211023T160000` | end: `20211023T170000`
+- **Dance Class** | start: `20220812T190000` | end: `20220812T200000` | loc: Angela Floyd Schools
+- **Schedule covid booster shots** | start: `20211124T140000` | end: `20211124T150000`
+- **Lisa** | start: `20240426` | end: `20240429`
+- **Sundown final walkthrough** | start: `20221113T110000` | end: `20221113T120000` | loc: 318 Sundown Rd Knoxville, TN, United States
+- **Baylee Dr - Well visit and Sports Physical @8:30 with West Knoxville Pediatrics** | start: `20240916T080000` | end: `20240916T092000` | loc: 224 S Peters Rd #105, Knoxville, TN 37923, USA
+- **GI Baylee with Chelsea - called to cancel** | start: `20260107T081000` | end: `20260107T091000`
+- **Check if they have loaner car for tomorrow** | start: `20230206T120000` | end: `20230206T121500`
+- **Beaver Creek Dental Craig** | start: `20240626T140000` | end: `20240626T150000`
+- **THE FULL at Blonded Hair Co.** | start: `20230829T100000` | end: `20230829T130000` | loc: 10843 Kingston Pike, Suite 9, FARRAGUT, TN, 37934
+- **Horse show?** | start: `20211106T131500` | end: `20211106T154500`
+- **Inspection for our Home** | start: `20220920T133000` | end: `20220920T153000` | loc: 318 Sundown Rd Knoxville, TN, United States
+- **Katerpillar Camp** | start: `20240427` | end: `20240428`
+- **Anniversary** | start: `20181212` | end: `20181213`
+- **Baylee ortho appt** | start: `20231218T102000` | end: `20231218T112000`
+- **🌎 ALLES - Live Training in Creating Dialogue** | start: `20221216T173000Z` | end: `20221216T210000Z`
+- **Results Meeting Date/Time** | start: `20250520T141500` | end: `20250520T151500`
+- **School Holiday** | start: `20220415` | end: `20220416`
+- **Air Specialists Free Estmate** | start: `20210925T110000` | end: `20210925T120000`
+- **Beaver Creek Dental Craig** | start: `20240724T140000` | end: `20240724T150000`
+- **Hair** | start: `20220826T160000` | end: `20220826T170000`
+- **401k check** | start: `20210829T210000` | end: `20210829T220000`
+- **Reservation: Lonesome Dove - Knoxville** | start: `20211030T173000` | end: `20211030T190000` | loc: Lonesome Dove - Knoxville 100 N Central Street Knoxville TN 37902 United States
+- **Orthadontist Pickering** | start: `20220131T085000` | end: `20220131T095000`
+- **COVID test** | start: `20210902T081500` | end: `20210902T091500`
+- **Call fitness solutions about elliptical** | start: `20230125T120000` | end: `20230125T130000`
+- **Breck’s birthday** | start: `20230303T180000` | end: `20230303T190000`
+- **Stay: Modern Asian Private Pool House** | start: `20230707` | end: `20230713` | loc: Modern Asian Private Pool House 5174 Walnut Grove Road Memphis TN 38117 US
+- **Steph's house** | start: `20220901T183000` | end: `20220901T203000`
+- **Zoe Boarding** | start: `20221008` | end: `20221015` | loc: Little Lake Pet Lodge 1666 Oliver Springs Hwy, Clinton, TN  37716, United States
+- **BNA/BOI** | start: `20221227T113300` | end: `20221227T150300` | loc: Dallas/ Fort Worth (DFW) 10:33AM local time
+- **Craig Functional Medicine Labs** | start: `20240314T131500` | end: `20240314T141500`
+- **Crown appointment beaver creek Craig** | start: `20260318T090000` | end: `20260318T100000`
+- **Baylee ortho appt** | start: `20220810T073000` | end: `20220810T083000`
+- **Dinner with Kaelyn & Steph** | start: `20230105T181500` | end: `20230105T194500`
+- **See house** | start: `20221029T100000` | end: `20221029T110000` | loc: 318 Sundown Rd Knoxville, TN, United States
+- **Fitness Solutions- Elliptical** | start: `20230127T090000` | end: `20230127T100000`
+- **One-On-One Lesson (Shante YuSlay)** | start: `20220609T140000Z` | end: `20220609T160000Z` | loc: Click to join meeting: https://app.acuityscheduling.com/schedule.php?owner=22785264&action=zoom&uniqueID=847fb7f05f80356c99b8e0c42f730a4e&ownerID=22785264
+- **Reservation: Table Rock House Restaurant** | start: `20250317T190000` | end: `20250317T203000` | loc: Table Rock House Restaurant 6650 Niagara Parkway, Niagara Falls ON L2E 6T2, Canada
+- **Lashes - La Petit Spa** | start: `20220603T150000Z` | end: `20220603T163500Z` | loc: 6426 Baum Drive Suite E, Knoxville, Tennessee, 37919
+- **Dinner** | start: `20240128T173000` | end: `20240128T193000` | loc: 9405 South Northshore Drive, Knoxville, TN 37922
+- **Smokey Hallow Builders** | start: `20210904T091500` | end: `20210904T121500`
+- **Teacher meet and greet** | start: `20220112T160000` | end: `20220112T170000` | loc: Hardin Valley Elementary School 11445 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Church** | start: `20220731T103000` | end: `20220731T113000` | loc: West Park Baptist Church 8833 Middlebrook Pike, Knoxville, TN  37923, United States
+- **Hair** | start: `20230713T170000` | end: `20230713T183000` | loc: 102 s campbell station road  suite 16
+- **Telehealth Sleep** | start: `20250728T082000` | end: `20250728T092000`
+- **Invitation: 💻 Zoom: Tiffany (Joypreneur) Meeting with Kim Watson @ Tue Dec 6, 2022 14:30 - 14:45 (EST) (tiffanydgerman@me.com)** | start: `20221206T143000` | end: `20221206T144500` | loc: https://us06web.zoom.us/j/86370241804
+- **Tree and Bush Removal** | start: `20210902T133000` | end: `20210902T173000`
+- **Mini Cooper appointment** | start: `20220325T121500` | end: `20220325T131500` | loc: Kadunza 5303 N Middlebrook Pike, Knoxville, TN  37921, United States
+- **Weatherstone Collaborative, LLC** | start: `20251031T100000` | end: `20251031T110000` | loc: 323 EBENEZER RD, KNOXVILLE, TN 37923
+- **Flight: UA 300 from SFO to HNL** | start: `20251214T134500` | end: `20251214T172000` | loc: San Francisco International Airport San Francisco CA 94128 United States
+- **Beaver Creek Dental Craig** | start: `20231212T100000` | end: `20231212T110000`
+- **Kris - stairs** | start: `20210927T090000` | end: `20210927T160000`
+- **Baylee COVID test** | start: `20211223T120000` | end: `20211223T130000`
+- **Genius Bar Reservation - AirPods** | start: `20220507T140000` | end: `20220507T141500` | loc: West Town Mall 7600 Kingston Pike, Knoxville, Tennessee, 37919
+- **Zoe - Boarding Dates** | start: `20231006` | end: `20231015`
+- **Baylee GI appointment** | start: `20240731T090000` | end: `20240731T100000`
+- **Kaelyn's Halloween Party** | start: `20211023T120000` | end: `20211023T140000` | loc: 2028 Creekside Manor Ln Knoxville, TN, United States
+- **Counseling** | start: `20220913T170000` | end: `20220913T173000`
+- **Jadyn- partial blonding at Willow + Oak Hair Lounge** | start: `20260121T170000` | end: `20260121T190000` | loc: 5816 Kingston Pike, Suite 3, KNOXVILLE, TN, 37919
+- **Telehealth Emily Functional Medicine** | start: `20240326T114500` | end: `20240326T124500`
+- **Bulk Trash out to curb for pick up scheduled on 11/4** | start: `20241103T170000` | end: `20241103T183000`
+- **Sleep doctor and dermatologist** | start: `20210825T120000` | end: `20210825T130000`
+- **Skin Wellness appt Danielle Warren** | start: `20240305T103500` | end: `20240305T113500`
+- **Stay: Best Western Gettysburg** | start: `20250320` | end: `20250322` | loc: Best Western Gettysburg
+- **Horse riding lesson with Heather** | start: `20230517T173000` | end: `20230517T183000` | loc: 12632 Evans Rd Farragut TN 37934
+- **Pay Apple Card** | start: `20221229T220000` | end: `20221229T230000`
+- **You Have an Upcoming Appointment with Wags & Whiskers** | start: `20230823T114500` | end: `20230823T124500`
+- **Turtle Canyon Snorkel (Semi-Private Boat Tour) with Captain Max Boat Tours** | start: `20251220T203000` | end: `20251220T220000` | loc: Kewalo Basin Harbor Pier C, 1125 Ala Moana Blvd,  Slip C-15, Honolulu, HI, 96814, US
+- **Baylee counseling sheet (on printer)** | start: `20211106T120000` | end: `20211106T130000`
+- **Baylee GI appointment** | start: `20241111T081000` | end: `20241111T091000`
+- **Craig urology appt** | start: `20241227T103000` | end: `20241227T113000`
+- **Clarina and Caía (8th) birthday party** | start: `20240921T120000` | end: `20240921T150000` | loc: 416 Saddle Ridge Dr Farragut, TN, United States
+- **Baylee Counseling** | start: `20210927T180000` | end: `20210927T190000` | loc: Telehealth
+- **Reservation: The Melting Pot - Knoxville** | start: `20230319T180000` | end: `20230319T193000` | loc: The Melting Pot - Knoxville 111 North Central Street Knoxville TN 37902 United States
+- **Jadyn- half blonding at Willow + Oak Hair Lounge** | start: `20260307T130000` | end: `20260307T175500` | loc: 5816 Kingston Pike, Suite 3, KNOXVILLE, TN, 37919
+- **AFS** | start: `20221202T120000` | end: `20221202T130000`
+- **Craig Restorative Function Med appt** | start: `20220627T130000` | end: `20220627T140000`
+- **Baylee GI appointment** | start: `20250929T081500` | end: `20250929T085000`
+- **Hair appt** | start: `20230131T100000` | end: `20230131T124500`
+- **Pool Lua Party** | start: `20230603T120000` | end: `20230603T130000` | loc: 10827 Napier Way #302
+- **Baylee counseling** | start: `20220728T160000` | end: `20220728T170000`
+- **Dentist - cleaning Craig** | start: `20260707T080000` | end: `20260707T090000`
+- **moving quote** | start: `20220913T090000` | end: `20220913T100000`
+- **Body wrap** | start: `20220607T110000` | end: `20220607T120000` | loc: Wonder Wrap 155 Sherway Rd, Knoxville, TN  37922, United States
+- **Dryer Repair** | start: `20240111T080000` | end: `20240111T170000`
+- **Baylee IEP Meeting** | start: `20240222T105500` | end: `20240222T115500`
+- **Halloween Trick-or-Treat** | start: `20221028T170000` | end: `20221028T210000` | loc: Ancient Lore Village 7107 Sevierville Pike, Knoxville, TN  37920, United States
+- **Dinner tonight INTERSECT** | start: `20230105T180000` | end: `20230105T190000`
+- **Pool table fixed up** | start: `20240605T090000` | end: `20240605T110000`
+- **Skin treatment Craig (Skin Wellness Center)** | start: `20220706T084000` | end: `20220706T091000`
+- **Easter Dinner & Baylee's B-day Celebration** | start: `20250420T133000` | end: `20250420T200000`
+- **Flight: AC 7661 from YYZ to BNA** | start: `20211227T110000` | end: `20211227T120800` | loc: Toronto Pearson International Airport 6301 Silver Dart Dr, Mississauga ON  L5P 1B2, Canada
+- **Handy - Handyman Service** | start: `20241208T200000Z` | end: `20241208T230000Z` | loc: 318 Sundown Rd, Knoxville, TN 37934
+- **Kristopher to look at stair project** | start: `20210901T084500` | end: `20210901T094500`
+- **Smokey Hallow Builders** | start: `20210908T111500` | end: `20210908T121500`
+- **Purelux** | start: `20220521T110000` | end: `20220521T120000`
+- **Leadership Meeting** | start: `20220827T130000` | end: `20220827T140000`
+- **Hair cut with no cooties** | start: `20220120T190000` | end: `20220120T200000`
+- **Doctor Appliance, LLC** | start: `20241004T100000` | end: `20241004T140000`
+- **Pool playdate** | start: `20230529T150000` | end: `20230529T171500` | loc: Stephanie's
+- **Pickering Orthadontist Craig** | start: `20210915T112000` | end: `20210915T122000`
+- **Nail Appointment** | start: `20210826T100000` | end: `20210826T113000`
+- **Spring Highgate HOA Meeting** | start: `20220514T100000` | end: `20220514T110000` | loc: 10207 Highgate Cir Knoxville, TN, United States
+- **Dinner with parents** | start: `20220605T170000` | end: `20220605T190000` | loc: Caza Brava Mexican Restaurant 5640 Clinton Hwy, Knoxville, TN  37912, United States
+- **Craig** | start: `20220831T223000` | end: `20220831T233000`
+- **Baylee Counseling** | start: `20211108T160000` | end: `20211108T170000` | loc: Telehealth
+- **See the baby @stephanies** | start: `20230329T180000` | end: `20230329T200000`
+- **Bowling mom night** | start: `20240323T170000` | end: `20240323T180000`
+- **COVID test** | start: `20211212T140000` | end: `20211212T150000`
+- **Hair @1:30** | start: `20250712T130000` | end: `20250712T140000`
+- **Play date with Kaelyn** | start: `20220108T160000` | end: `20220108T170000` | loc: Hardin Valley Elementary School 11445 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Mother’s Day brunch** | start: `20220508T103000` | end: `20220508T113000` | loc: Gourmet's Market & Cafe 5107 Kingston Pike, Knoxville, TN  37919, United States
+- **Latern festival** | start: `20230520T173000` | end: `20230520T213000` | loc: Chilhowee Park & Exposition Center 3301 E Magnolia Ave, Knoxville, TN  37914, United States
+- **Shot & Consultation** | start: `20211028T111500` | end: `20211028T130000` | loc: Shea Aesthetic Clinic 232 W Tennessee Ave, Oak Ridge, TN  37830, United States
+- **Tiffany dentist** | start: `20211207T074500` | end: `20211207T084500` | loc: Beaver Creek DENTAL Kyle Smith, DDS 7652 Oak Ridge Hwy, Knoxville, TN  37931, United States
+- **Craig Flight** | start: `20241030T100000` | end: `20241030T110000` | loc: Washington DC
+- **Meeting with accountant - Jessica** | start: `20220920T110000` | end: `20220920T120000` | loc: Zoom
+- **Zoe - Boarding Dates** | start: `20231221` | end: `20240103`
+- **Driver's License Appt** | start: `20221007T135000` | end: `20221007T145000` | loc: West Knox 430 Montbrook Lane Knoxville, TN 37919
+- **House cleaning - Monica** | start: `20221117T120000` | end: `20221117T130000` | loc: 10115 Highgate Circle, Knoxville TN 37931
+- **Chancery Court (name change)** | start: `20220826T083000` | end: `20220826T093000` | loc: 400 W Main St Knoxville, TN, United States
+- **Your appointment with Zen Nail Bar has been confirmed. {link}** | start: `20220902T104500` | end: `20220902T124500`
+- **Eyelashes @2:30** | start: `20260309T143000` | end: `20260309T164500` | loc: 11410 Kingston Pike Farragut, TN, United States
+- **Reservation: upcoming reservation for Miel Restaurant & Bar on Thursday, October 2, 2025, 9:00 PM** | start: `20251002T210000` | end: `20251002T223000` | loc: upcoming reservation for Miel Restaurant & Bar on Thursday, October 2, 2025, 9:00 PM 343 53rd Avenue North Nashville TN 37209
+- **Stay: Country Inn & Suites by Radisson, Niagara Falls, ON** | start: `20250317` | end: `20250319` | loc: Country Inn & Suites by Radisson, Niagara Falls, ON
+- **Counseling** | start: `20220927T160000` | end: `20220927T163000`
+- **Counseling** | start: `20221107T160000` | end: `20221107T163000`
+- **Stay: Clarion Hotel The Pier** | start: `20231007` | end: `20231009` | loc: Clarion Hotel The Pier Pumpgatan 5, 417 55 Göteborg, Sweden
+- **Dentist Craig** | start: `20250722T080000` | end: `20250722T090000`
+- **Baylee Tutoring** | start: `20211105T153000` | end: `20211105T170000` | loc: 10115 Highgate Circle Knoxville TN 37931 United States
+- **Robotic meeting** | start: `20220815T180000` | end: `20220815T183000` | loc: Hardin Valley Elementary School 11445 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Craig’s sister leaves** | start: `20220614T123000` | end: `20220614T130000` | loc: Nashville International Airport 1 Terminal Dr, Nashville, TN 37214, United States
+- **Drive home from nashville** | start: `20230103T171500` | end: `20230103T181500`
+- **Vet Appt** | start: `20220401T160000` | end: `20220401T170000` | loc: Butler Animal Clinic 7545 Oak Ridge Hwy, Knoxville, TN  37931, United States
+- **Flight: DL 5003 from LGA to TYS** | start: `20250822T181500` | end: `20250822T203600` | loc: LaGuardia Airport Terminal B Arrivals Rd, East Elmhurst, NY 11371, United States
+- **Your appointment with Zen Nail Bar has been confirmed. {link}** | start: `20220305T113000` | end: `20220305T123000`
+- **Tiffany - Chiro appt** | start: `20240409T100000` | end: `20240409T112000`
+- **Baylee Counseling - Dr Wheat** | start: `20231109T173000` | end: `20231109T183000` | loc: 6000 Walden Dr suite 102, Knoxville, TN 37919, USA
+- **Talk to Tiffany's parents** | start: `20220111T203000` | end: `20220111T213000`
+- **Talk to Tiffany's parents** | start: `20220804T203000` | end: `20220804T213000`
+- **Talk to Tiffany's parents** | start: `20221207T203000` | end: `20221207T213000`
+- **Counseling** | start: `20220920T160000` | end: `20220920T163000`
+- **Teacher Conference** | start: `20210930T182000` | end: `20210930T192000` | loc: Zoom
+- **Baylee Dentist** | start: `20220203T080000` | end: `20220203T090000`
+- **Plumber** | start: `20240524T080000` | end: `20240524T090000` | loc: 318 Sundown Rd, Knoxville, TN 37934
+- **Reservation at Chesapeake's West Knoxville for 2** | start: `20240706T183000` | end: `20240706T203000` | loc: 9630 Parkside Dr, Knoxville, TN 37922
+- **Baylee Tutoring** | start: `20220112T170000` | end: `20220112T183000` | loc: 10115 Highgate Circle Knoxville TN 37931 United States
+- **Hair** | start: `20211214T133000` | end: `20211214T160000`
+- **Jessica & TIffany** | start: `20220920T110000` | end: `20220920T113000` | loc: https://zoom.us/j/94077846050?pwd=ZHNOc1pVUFgxK2EyV2RJNEtpc3JzQT09
+- **Baylee Tutoring** | start: `20211102T170000` | end: `20211102T183000` | loc: 10115 Highgate Circle Knoxville TN 37931 United States
+- **Drop Baylee off at school by 6:40 (Dollywood Concert)** | start: `20260327T060000` | end: `20260327T065000`
+- **Parents in town** | start: `20211008T090000` | end: `20211009T100000`
+- **Upload test results to air Canada and ArriveCAN app** | start: `20211214T140000` | end: `20211214T150000`
+- **Counseling - Baylee** | start: `20220823T170000` | end: `20220823T173000`
+- **Extra waste pickup tomorrow** | start: `20230116T205000` | end: `20230116T215000`
+- **Stay: Comfort Inn & Suites Niagara Falls Blvd USA** | start: `20250316` | end: `20250318` | loc: Comfort Inn & Suites Niagara Falls Blvd USA
+- **5k Race** | start: `20211120T090000` | end: `20211120T124500` | loc: Victor Ashe Park 4901 Bradshaw Rd, Knoxville, TN  37912, United States
+- **Internet install** | start: `20221122T101500` | end: `20221122T111500` | loc: TDS at new home
+- **Dermatologist appointment** | start: `20221121T140000` | end: `20221121T152000`
+- **Birthday party - misty** | start: `20220528T120000` | end: `20220528T140000`
+- **Pickup Lisa** | start: `20220423T160000` | end: `20220423T170000` | loc: McGhee Tyson Airport 2055 Alcoa Hwy, Alcoa, TN 37701, United States
+- **Baylee Dr Follow Up Appt** | start: `20240408T093000` | end: `20240408T103000` | loc: 10857 HARDIN VALLEY RD  KNOXVILLE, 37932-1410
+- **Ortho appt for Baylee** | start: `20220831T090000` | end: `20220831T100000` | loc: 1422 Old Weisgarber Rd Knoxville, TN, United States
+- **Reservation: Seasons Innovative Bar & Grille** | start: `20231020T194500` | end: `20231020T211500` | loc: Seasons Innovative Bar & Grille 11605 Parkside Dr, Knoxville, TN 37934, United States
+- **THE PARTIAL at Blonded Hair Co.** | start: `20240120T150000Z` | end: `20240120T170000Z` | loc: 10843 Kingston Pike, Suite 9, FARRAGUT, TN, 37934
+- **Baylee's dentist appt** | start: `20211210T080000` | end: `20211210T090000`
+- **Craig Flight** | start: `20241106T164500` | end: `20241106T174500` | loc: Denver, CO United States
+- **Genius Bar Reservation - AirPods** | start: `20220514T131000` | end: `20220514T132500` | loc: West Town Mall 7600 Kingston Pike, Knoxville, Tennessee, 37919
+- **Craig Labcorps lab work at Walgreens** | start: `20250314T093000` | end: `20250314T103000`
+- **Garage door install** | start: `20221228T150000` | end: `20221228T160000` | loc: 318 Sundown Rd Knoxville, TN 37934
+- **Jadyn- half blonding at Willow + Oak Hair Lounge** | start: `20260417T163000` | end: `20260417T190000` | loc: 5816 Kingston Pike, Suite 3, KNOXVILLE, TN, 37919
+- **Craig Telehealth with Emily** | start: `20220517T104500` | end: `20220517T111500`
+- **Baylee Tutoring** | start: `20210921T170000` | end: `20210921T180000` | loc: 10115 Highgate Circle Knoxville TN 37931 United States
+- **Hair @noon** | start: `20251205T113000` | end: `20251205T123000` | loc: Willow + Oak 5816 Kingston Pike, Knoxville, TN  37919, United States
+- **Flight: G4 1358 from SRQ to TYS** | start: `20251228T170600` | end: `20251228T185800` | loc: Sarasota Bradenton International Airport 6000 Airport Circle Sarasota, FL 34243 United States
+- **Reservation at Dancing Bear Appalachian Bistro for 4** | start: `20230408T171500` | end: `20230408T191500` | loc: 7140 East Lamar Alexander Parkway, Townsend, TN 37882
+- **Baylee HPV Shot** | start: `20221218T150000` | end: `20221218T160000` | loc: Kroger
+- **Stay: Hotel Bristol** | start: `20231009` | end: `20231011` | loc: Hotel Bristol Kristian IV's gate 7, 0164 Oslo, Norway
+- **Baylee ortho appointment at 8:50** | start: `20240304T085000` | end: `20240304T095000` | loc: East Tennessee Orthodontics 1143 Oak Ridge Tpke, Unit 206, Oak Ridge, TN  37830, United States
+- **Mom’s bday** | start: `20230626T090000` | end: `20230626T100000`
+- **Garage Door Installation** | start: `20221220T180000` | end: `20221220T190000`
+- **My parents arrive** | start: `20220610T140000` | end: `20220610T150000`
+- **Flight from Nashville to Toronto, departing at 10h25 (local time)** | start: `20231222T112500` | end: `20231222T132600` | loc: - AC1104
+- **Hair** | start: `20211111T080000` | end: `20211111T103000`
+- **I NEED HELP! Extra large refill (Shari Lynch - Need Acceptance)** | start: `20220912T100000` | end: `20220912T113000` | loc: 6426 Baum Drive Suite E,Knoxville,Tennessee,37919
+- **Holiday craft party** | start: `20221204T150000` | end: `20221204T160000`
+- **School Holiday** | start: `20211220` | end: `20220104`
+- **Meeting with Kristy** | start: `20211207T101500` | end: `20211207T111500` | loc: Dancing Bear Lodge 7140 E Lamar Alexander Pkwy, Townsend, TN  37882, United States
+- **Lisa leaves** | start: `20220428T080000` | end: `20220428T090000` | loc: McGhee Tyson Airport 2055 Alcoa Hwy, Alcoa, TN 37701, United States
+- **Crawlspace ninja** | start: `20220914T080000` | end: `20220914T090000`
+- **Baylee's flight from ID** | start: `20220105T144500` | end: `20220105T154500` | loc: Knoxville Airport 2055 Alcoa Hwy, Alcoa, TN 37701, United States
+- **Meet teachers for Baylee’s needs** | start: `20220309T104500` | end: `20220309T114500`
+- **my parents are in town** | start: `20221028` | end: `20221102`
+- **Accountant** | start: `20221220T090000` | end: `20221220T100000` | loc: Zoom
+- **Service Appointment Request # 80264 from: Matlock Tire Service - Hardin Valley** | start: `20220414T110000` | end: `20220414T120000` | loc: Matlock Tire Service & Auto Repair Hardin Valley 10838 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Your appointment with Zen Nail Bar has been confirmed. {link}** | start: `20221123T151500` | end: `20221123T171500`
+- **Recyle Day** | start: `20240827T191500` | end: `20240827T201500`
+- **Tiffany Labs** | start: `20221114T100000` | end: `20221114T110000` | loc: 10420 Jackson Oaks Way, Suite 201 Knoxville, TN 37922
+- **Birthday brunch with parents** | start: `20251109T110000` | end: `20251109T131500` | loc: Holly's Gourmet Market 5107 Kingston Pike, Knoxville, TN  37919, United States
+- **Orthadontist Pickering** | start: `20220722T104000` | end: `20220722T114000`
+- **Emily Kopek appt Craig in person** | start: `20250902T090000` | end: `20250902T100000`
+- **Stay: Cambria Hotel Nashville Airport** | start: `20231221` | end: `20231223` | loc: Cambria Hotel Nashville Airport 44 Rachel Dr, Nashville, TN 37214, United States
+- **Plumbers expansion tank** | start: `20240524T080000` | end: `20240524T090000`
+- **Gardeners** | start: `20210902T084500` | end: `20210902T124500`
+- **Inspection with AFS** | start: `20220919T090000` | end: `20220919T100000` | loc: 318 Sundown Rd Knoxville, TN, United States
+- **House Hunting** | start: `20220908T190000` | end: `20220908T193000` | loc: 2309 Mission Hill Ln Knoxville, TN, United States
+- **Car detail** | start: `20211007T080000` | end: `20211007T120000`
+- **Baylee Optomologist appt** | start: `20230105T100000` | end: `20230105T110000`
+- **Baylees birthday party** | start: `20220423T113000` | end: `20220423T133000` | loc: Main Event Entertainment 9081 Kingston Pike W, Knoxville, TN  37923, United States
+- **House hunting** | start: `20220803T173000` | end: `20220803T193000` | loc: 210 Sandringham Ct Knoxville, TN, United States
+- **Social security appt for Baylee** | start: `20220912T130000` | end: `20220912T140000` | loc: They will call me
+- **Appointment Booked: Solar Savings Evaluation for $0 Upfront (Tennessee Clean Energy Association - Advisor from Solar Titan USA)** | start: `20230102T200000Z` | end: `20230102T210000Z` | loc: 318 Sundown Rd
+- **Vision and story event** | start: `20220129` | end: `20220130` | loc: 615 Main St, Nashville, TN
+- **Crawlspace ninja final inspection** | start: `20230217T080000` | end: `20230217T090000`
+- **Washer/Dryer appt** | start: `20230414T090000` | end: `20230414T120000`
+- **Appointment with Dr. Witherington - Baylee oral surgery** | start: `20260220T094000` | end: `20260220T104000` | loc: 140 E Division Rd , Oak Ridge, TN 37830
+- **Sneak peek Baylee school** | start: `20220805T140000` | end: `20220805T170000`
+- **Car rental pick-up: Rentalcars.com** | start: `20220122` | end: `20220123` | loc: Phoenix Sky Harbor Airport
+- **Pickering Orthadontist Craig** | start: `20220418T085000` | end: `20220418T095000`
+- **Crawl Space Ninja** | start: `20230206T000000` | end: `20230206T010000` | loc: Reviewing downspouts and attic fan
+- **Zoe grooming** | start: `20230415T133000` | end: `20230415T143000`
+- **House showing** | start: `20220906T180000` | end: `20220906T183000`
+- **Solar Savings Eval** | start: `20230102T150000` | end: `20230102T160000` | loc: 318 Sundown Rd
+- **Everlywell Test** | start: `20220815T090000` | end: `20220815T091500`
+- **House showing** | start: `20220907T180000` | end: `20220907T183000`
+- **Flight: G4 2632 from SFB to TYS** | start: `20220221T205900` | end: `20220221T223200` | loc: Orlando Sanford International Airport 1200 Red Cleveland Blvd, Sanford, FL 32773, United States
+- **HOA Meeting** | start: `20220922T170000` | end: `20220922T174500` | loc: https://zoom.us/j/97654556805?pwd=WGpVS0pyVTJOL25Ba055aFZtTm1uQT09
+- **Craig’s sister arrives** | start: `20220607` | end: `20220608` | loc: Nashville International Airport 1 Terminal Dr, Nashville, TN 37214, United States
+- **Aerocare appt Craig** | start: `20240802T090000` | end: `20240802T100000`
+- **Connie (realtor)** | start: `20220730T130000` | end: `20220730T143000`
+- **Teach JA Finance Class** | start: `20220926T133000` | end: `20220926T153000` | loc: Hardin Valley Academy 11345 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Flight: UA 1806 from HNL to DEN** | start: `20251221T225000` | end: `20251222T083800` | loc: Daniel K. Inouye International Airport 300 Rodgers Blvd Honolulu HI 96819 United States
+- **Cooking Class** | start: `20240330T104500` | end: `20240330T130000` | loc: The Cutting Edge Classroom 150 N Martinwood Rd, Suite 402, Knoxville, TN 37923, United States
+- **Baylee ortho appt** | start: `20231113T081500` | end: `20231113T091500`
+- **Training** | start: `20221220T120000` | end: `20221220T140000`
+- **Mom’s night out** | start: `20230325T181500` | end: `20230325T191500` | loc: Space Bar 179 N Seven Oaks Dr, Knoxville, TN  37922, United States
+- **Splash Country** | start: `20230902T110000` | end: `20230902T170000`
+- **Kaeyln's Birthday Party** | start: `20230303T180000` | end: `20230303T193000` | loc: Premier Gymnastics
+- **Mom's Night Out** | start: `20230616T180000` | end: `20230616T210000` | loc: Cazzy's Corner Grill 2099 Thunderhead Rd, Knoxville, TN  37922, United States
+- **Fountain city Endo Root canal** | start: `20260316T084500` | end: `20260316T094500`
+- **Dr Kim Urologist** | start: `20260130T080000` | end: `20260130T090000`
+- **Baylee Tutoring** | start: `20210924T153000` | end: `20210924T163000` | loc: 10115 Highgate Circle Knoxville TN 37931 United States
+- **Baylee Tutoring** | start: `20211007T170000` | end: `20211007T180000` | loc: 10115 Highgate Circle Knoxville TN 37931 United States
+- **Dentist Craig - Cakmes** | start: `20230516T080000` | end: `20230516T090000`
+- **Northwest plumbing to give quote on install** | start: `20230117T100000` | end: `20230117T110000`
+- **Tiffany cut Craig’s hair** | start: `20211107T160000` | end: `20211107T170000`
+- **Flight: G4 1410 from TYS to SRQ** | start: `20251224T083500` | end: `20251224T102000` | loc: McGhee Tyson Airport 2055 Alcoa Hwy, Alcoa, TN 37701, United States
+- **Baylee Running - Pickup** | start: `20210916T153000` | end: `20210916T164500` | loc: Hardin Valley Elementary School 11445 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Notary Services at The Trusty Notary** | start: `20220306T193000Z` | end: `20220306T200000Z` | loc: 10115 Highgate Circle
+- **Reservation: Osteria Stella** | start: `20220723T201500` | end: `20220723T214500` | loc: Osteria Stella 108 W Jackson Ave, Knoxville, TN 37902, United States
+- **House Hunting** | start: `20220908T183000` | end: `20220908T190000` | loc: 12504 Buttermilk Rd Knoxville, TN, United States
+- **AC repair** | start: `20220812T083000` | end: `20220812T093000` | loc: European Auto Garage 1229 Lovell Rd, Knoxville, TN  37932, United States
+- **Drive to Nashville** | start: `20230103T121500` | end: `20230103T130000`
+- **Karen Brio - adoption** | start: `20260324T131500` | end: `20260324T141500`
+- **Talk to tiffs parents** | start: `20211102T190000` | end: `20211102T200000`
+- **Lessons tour at Gregory Farms (horse farm for Baylee)** | start: `20210828T130000` | end: `20210828T133000`
+- **Spa** | start: `20220607T130000` | end: `20220607T161500` | loc: Pure Luxe Salon, Spa & Medspa 10780 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Flight: UA 1681 from BNA to SFO** | start: `20251214T091000` | end: `20251214T121500` | loc: Nashville International Airport 1 Terminal Dr Nashville TN 37214-4114 United States
+- **Play date with Kaelyn** | start: `20220206T110000` | end: `20220206T120000` | loc: Main Event Entertainment 9081 Kingston Pike W, Knoxville, TN  37923, United States
+- **Stay: Sonesta Nashville Airport** | start: `20220311` | end: `20220314` | loc: Sonesta Nashville Airport 600 Marriott Dr, Nashville, TN  37214, United States
+- **Lakeside of the Smokies Balloon Fest 2023** | start: `20231028T140000` | end: `20231029T200000` | loc: 295 West Dumplin Valley Road,Dandridge,37725,US
+- **Car Rental Pickup** | start: `20240318T170000` | end: `20240318T173000` | loc: 12019 KINGSTON PIKE, KNOXVILLE, TN 37934-4604
+- **Haircut Craig** | start: `20220609T094500` | end: `20220609T104500`
+- **Baylee OPT** | start: `20241222T150000` | end: `20241222T180000` | loc: The Middle Path, Inc 245 S Peters Rd, Knoxville, TN  37923, United States
+- **School Holiday** | start: `20220418` | end: `20220419`
+- **House showing** | start: `20220906T184500` | end: `20220906T191500`
+- **Beaver Creek Dental Craig** | start: `20241212T080000` | end: `20241212T090000`
+- **Urban air play date** | start: `20230313T140000` | end: `20230313T143000`
+- **10/27 Highgate HOA meeting** | start: `20221027T173000` | end: `20221027T183000`
+- **Soaky mountain?** | start: `20220820T120000` | end: `20220820T200000`
+- **Beaver Dental appointment - crown** | start: `20230404T074500` | end: `20230404T094500`
+- **Sleep doctor** | start: `20210830T090000` | end: `20210830T100000`
+- **Wrap** | start: `20220416T110000` | end: `20220416T140000` | loc: Wonder Wrap 155 Sherway Rd, Knoxville, TN  37922, United States
+- **Pickering Orthadontist Craig** | start: `20220912T105000` | end: `20220912T115000`
+- **Whole House Water Filter Installation** | start: `20230315T080000` | end: `20230315T090000`
+- **Stephanie** | start: `20220907T080000` | end: `20220907T100000`
+- **Lunch with parents** | start: `20241102T120000` | end: `20241102T130000` | loc: Dos Agaves Mexican Grill 11639 Parkside Dr, Knoxville, TN 37934, United States
+- **Shot** | start: `20210826T093000` | end: `20210826T100000`
+- **Appointment Confirmation with The Plumbing Authority Inc** | start: `20230301T080000` | end: `20230301T130000` | loc: 318 Sundown Road, Knoxville, TN 37934 USA
+- **Baylee OPT** | start: `20241223T100000` | end: `20241223T130000` | loc: The Middle Path, Inc 245 S Peters Rd, Knoxville, TN  37923, United States
+- **House showing** | start: `20220907T190000` | end: `20220907T193000`
+- **Dr Willis ENT Park west Overholt business** | start: `20250203T134500` | end: `20250203T144500`
+- **Flight: AA 1049 from TYS to DFW** | start: `20240701T060000` | end: `20240701T072200` | loc: McGhee Tyson Airport 2055 Alcoa Hwy, Alcoa, TN 37701, United States
+- **Highgate HOA - New Manager Introduction** | start: `20220725T173000` | end: `20220725T183000` | loc: Highgate - Introduction meeting w/ Board Monday, July 25 · 5:30 – 6:30pm Google Meet joining info Video call link: https://meet.google.com/agd-idyy-ikk Or dial: (US) +1 510-766-1929 PIN: 168 927 958#
+- **Baylee Dentist** | start: `20220802T070000` | end: `20220802T080000` | loc: Beaver Creek DENTAL Kyle Smith, DDS 7652 Oak Ridge Hwy, Knoxville, TN  37931, United States
+- **BNA/BOI** | start: `20230103T133900` | end: `20230103T152400` | loc: Dallas/ Fort Worth (DFW) 12:39PM local time
+- **Nails** | start: `20230329T114500` | end: `20230329T144500` | loc: QQ Nail Lounge 11156 Parkside Dr, Knoxville, TN  37934, United States
+- **Stay: Dogwood Cottage in Downtown Columbia** | start: `20211013` | end: `20211017` | loc: Dogwood Cottage in Downtown Columbia 410 Wahella Way Columbia TN 38401 US
+- **Drop off car for detail** | start: `20230207T170000` | end: `20230207T180000` | loc: European Auto Garage 1229 Lovell Rd, Knoxville, TN  37932, United States
+- **Counseling - Baylee** | start: `20220831T160000` | end: `20220831T163000`
+- **TYS/BOI** | start: `20230715T152500` | end: `20230715T173200` | loc: Dallas/ Fort Worth (DFW) 02:25PM local time
+- **Hair** | start: `20220210T090000` | end: `20220210T120000`
+- **Counseling** | start: `20230124T163000` | end: `20230124T170000`
+- **FW: Ivan and Lisa - Blog Recording 2x** | start: `20221110T150000` | end: `20221110T160000`
+- **Zoe Vet appt** | start: `20220524T080000` | end: `20220524T090000` | loc: Butler Veterinary Services, PLLC 10801 Sam Lee Rd, Knoxville, TN  37932, United States
+- **Horse riding lesson with Heather** | start: `20230730T160000` | end: `20230730T170000` | loc: 12632 Evans Rd Farragut TN 37934
+- **Craig’s parents arrive** | start: `20220606T190000` | end: `20220606T220000` | loc: Nashville International Airport 1 Terminal Dr, Nashville, TN 37214, United States
+- **Lisa - Pick up from Airport** | start: `20231030T210000` | end: `20231030T220000`
+- **Thomas pest control** | start: `20231123T160000` | end: `20231123T170000`
+- **Skin treatment Craig (Skin Wellness Center) full body** | start: `20230301T090000` | end: `20230301T093000`
+- **Gutters Jose** | start: `20221214T160000` | end: `20221214T170000`
+- **Hair appt** | start: `20221007T113000` | end: `20221007T133000` | loc: Messi Heads Salon 10612 Hardin Valley Rd, Unit 108, Knoxville, TN  37932, United States
+- **Painter quote - Victor** | start: `20220906T090000` | end: `20220906T100000`
+- **TYS/BOI** | start: `20230715T081200` | end: `20230715T112100` | loc: Boise (BOI) 06:12AM local time
+- **Stay: “Helen’s House” Super Sanitized 2 Baths 2 Beds** | start: `20211226` | end: `20211228` | loc: “Helen’s House” Super Sanitized 2 Baths 2 Beds 2016 Wayne Avenue, near South Park, UD, WPAFB and National Museum of the US Air Force Dayton OH 45410 US
+- **HeyGen Bootcamp** | start: `20251203T120000` | end: `20251204T144500` | loc: https://community.heygen.com/events/heygen-bootcamp-mf890vcbt5
+- **The Trusty Notary has rescheduled your appointment** | start: `20221207T090000` | end: `20221207T100000` | loc: 318 Sundown Rd Farragut, TN 37934
+- **Cooks Pest Control (Termite Inspection)** | start: `20221122T111500` | end: `20221122T121500`
+- **Lunch at mall - bring phones** | start: `20220729T140000` | end: `20220729T160000`
+- **Training** | start: `20221228T140000` | end: `20221228T160000`
+- **TYS/BOI** | start: `20230703T054400` | end: `20230703T081100` | loc: Knoxville (TYS) 05:44AM local time
+- **Zen Nail** | start: `20221008T143000` | end: `20221008T153000`
+- **Tiffany doc UT** | start: `20221208T100000` | end: `20221208T110000`
+- **Mom's Birthday Brunch** | start: `20250809T110000` | end: `20250809T120000` | loc: Flying Biscuit Cafe 11683 Parkside Dr, Knoxville, TN  37934, United States
+- **Craig Flight** | start: `20241027T070000` | end: `20241027T080000` | loc: Washington DC
+- **Roof** | start: `20221214T120000` | end: `20221214T160000`
+- **My parents leave** | start: `20220615T130000` | end: `20220615T140000`
+- **Tiffany booster shot** | start: `20211202T151500` | end: `20211202T161500` | loc: Kroger 9200 Middlebrook Pike, Knoxville, TN  37931, United States
+- **Flu Shot** | start: `20211003T143000` | end: `20211003T151500` | loc: Kroger 9200 Middlebrook Pike, Knoxville, TN  37931, United States
+- **Stay: Sonesta Nashville Airport** | start: `20221226` | end: `20221228` | loc: Sonesta Nashville Airport 600 Marriott Dr, Nashville, TN  37214, United States
+- **Baylee Colonoscopy** | start: `20240503T090000` | end: `20240503T100000` | loc: Middlebrook Surgery Center 1210 Tennova Medical Way, Knoxville, TN  37909, United States
+- **Microblading** | start: `20220421T100000` | end: `20220421T110000` | loc: Lulu Salon Microblading 312 S Peters Rd, Knoxville, TN  37923, United States
+- **Crawlspace ninja maintenance** | start: `20240606T160000` | end: `20240606T170000`
+- **Fair/Concert with Steph** | start: `20220822T150000` | end: `20220822T210000`
+- **Ticket: The Ultimate Experience** | start: `20220123T130000` | end: `20220123T160000` | loc: HILTON PHOENIX CHANDLER 2929 W Frye Rd Chandler AZ 85224 US
+- **Zoe grooming** | start: `20230317T170000` | end: `20230317T180000`
+- **Grace Loves Lace Nashville
+Bridal Appointment with Haley Ray** | start: `20220104T120000` | end: `20220104T130000` | loc: 2222 12th Avenue South  2nd Floor  Nashville  TN  37204
+- **House showing** | start: `20220905T113000` | end: `20220905T120000`
+- **Baylee Dr appt annual exam and referral for cardio** | start: `20230525T104500` | end: `20230525T114500` | loc: 10857 Hardin Valley Rd Knoxville, TN, United States
+- **PTO Meting** | start: `20210914T180000` | end: `20210914T190000`
+- **Dentist - Tiffany** | start: `20230612T080000` | end: `20230612T090000` | loc: Beaver Creek DENTAL Kyle Smith, DDS 7652 Oak Ridge Hwy, Knoxville, TN  37931, United States
+- **Beaver Dental appointment - crown** | start: `20221202T090000` | end: `20221202T110000`
+- **Stay** | start: `20240628` | end: `20240701`
+- **Meeting with Cedar Management** | start: `20220601T170000` | end: `20220601T180000` | loc: https://us02web.zoom.us/j/8106358069
+- **Spring break** | start: `20230313` | end: `20230318`
+- **Invisible fence install** | start: `20221214T080000` | end: `20221214T130000`
+- **Birthday Dinner for Baylee** | start: `20240413T170000` | end: `20240413T193000` | loc: The Melting Pot 111 N Central St, Knoxville, TN  37902, United States
+- **Pay remaining amount for wedding decorations** | start: `20220509T200000` | end: `20220509T210000`
+- **Fireplace Update** | start: `20210915T100000` | end: `20210915T150000`
+- **Dr Hall** | start: `20211111T143000` | end: `20211111T153000` | loc: 9239 Park West Blvd STE 202, Knoxville, TN 37923
+- **Pickup Baylee from School - Dumbledoor's Army** | start: `20220309T150000` | end: `20220309T160000` | loc: Hardin Valley Elementary School 11445 Hardin Valley Road Knoxville TN 37932 US
+- **Roof - dusty** | start: `20221229T120000` | end: `20221229T140000`
+- **Range Delivery** | start: `20210905T121500` | end: `20210905T160000`
+- **Baylee HPV Vaccine** | start: `20220430T140000` | end: `20220430T150000` | loc: Kroger 9200 Middlebrook Pike, Knoxville, TN  37931, United States
+- **Pickering Orthadontist Craig** | start: `20260323T104000` | end: `20260323T114000`
+- **Dermatology skin wellness** | start: `20221014T153000` | end: `20221014T163000`
+- **Craig NEXUS interview (Canadian part)** | start: `20231227T111500` | end: `20231227T121500`
+- **TYS/BOI** | start: `20230703T112600` | end: `20230703T144500` | loc: Dallas/ Fort Worth (DFW) 10:26AM local time
+- **Tiffany cut Craig’s hair** | start: `20230325T110000` | end: `20230325T120000`
+- **Vet appt - Dr small** | start: `20230427T140000` | end: `20230427T150000` | loc: House
+- **Baylee counseling** | start: `20220414T160000` | end: `20220414T170000`
+- **6th Grade Band Concert** | start: `20241017T180000` | end: `20241017T190000`
+- **Mira Testing** | start: `20220927T073000` | end: `20220927T083000`
+- **Ortho appt for Baylee** | start: `20220922T090000` | end: `20220922T100000` | loc: 1422 Old Weisgarber Rd Knoxville, TN, United States
+- **Instrument Petting Zoo (Band and Orchistra)** | start: `20240304T170000` | end: `20240304T183000` | loc: Farragut Middle School 200 W End Ave, Farragut, TN 37934, United States
+- **Rehearsal dinner** | start: `20220612T170000` | end: `20220612T180000` | loc: Tequila Spice Mexican Grill & Cantina 360 Forks of the River Pkwy, Sevierville, TN  37862, United States
+- **Baylee & Tiffany nails @1** | start: `20260308T130000` | end: `20260308T151500`
+- **Easter dinner and parents house** | start: `20240331T130000` | end: `20240331T164500` | loc: Broome Rd Knoxville, TN, United States
+- **Inspections for 10115** | start: `20220916T100000` | end: `20220916T120000`
+- **Baylee Tutoring** | start: `20220110T170000` | end: `20220110T183000` | loc: 10115 Highgate Circle Knoxville TN 37931 United States
+- **IEP Meeting Date/Time** | start: `20260116T114000` | end: `20260116T124000`
+- **Nail appt with Baylee** | start: `20211211T110000` | end: `20211211T120000` | loc: Zen Nail Bar 9201 Middlebrook Pike, Knoxville, TN  37931, United States
+- **Booking Confirmation for Tiffany at Salon Yeager** | start: `20240921T133000` | end: `20240921T153000` | loc: Salon Yeager 6618 Kingston Pike, Knoxville, TN  37919, United States
+- **Meeting with Scott** | start: `20220320T160000` | end: `20220320T170000` | loc: 101 Sky Lounge 101 E Main St, Sevierville, TN  37862, United States
+- **Furnaces - lynco** | start: `20221212T090000` | end: `20221212T100000`
+- **Baylee Dentist** | start: `20231129T070000` | end: `20231129T080000` | loc: Beaver Creek DENTAL Kyle Smith, DDS 7652 Oak Ridge Hwy, Knoxville, TN  37931, United States
+- **Lashes - La Petit Spa** | start: `20230411T103000` | end: `20230411T130500` | loc: 6426 Baum Drive Suite E, Knoxville, Tennessee, 37919
+- **Being Movement Leadership Special Meeting** | start: `20230521T110000` | end: `20230521T120000` | loc: https://us06web.zoom.us/j/2083713591
+- **The Stitch Witch, 11603 Black Rd, Knoxville, TN 37932** | start: `20220502T090000` | end: `20220502T100000`
+- **House showing** | start: `20220906T130000` | end: `20220906T133000`
+- **Parent Night - Rising 6th Graders** | start: `20240404T180000` | end: `20240404T190000` | loc: Farragut Middle School Gymnasium
+- **Church** | start: `20220807T101500` | end: `20220807T120000` | loc: West Park Baptist Church 8833 Middlebrook Pike, Knoxville, TN  37923, United States
+- **Evelyn's b-day party** | start: `20230324T180000` | end: `20230324T190000` | loc: 3205 Rolling Hills Ln Knoxville, TN, United States
+- **Intake for Baylee S/Davis** | start: `20220309T104500` | end: `20220309T113000`
+- **Ben Weisenthal- Orthopedic for Craig** | start: `20240801T080000` | end: `20240801T090000`
+- **Emily Kopek appt Craig** | start: `20211130T130000` | end: `20211130T133000`
+- **Invisible fence consultation** | start: `20221129T160000` | end: `20221129T180000`
+- **Garage door opener install** | start: `20221223T150000` | end: `20221223T160000` | loc: 318 Sundown Rd Knoxville, TN 37934
+- **National Night Out Event** | start: `20220802T193000` | end: `20220802T203000` | loc: 10165 Rockbrook Dr Knoxville, TN, United States
+- **Tiffany dentist** | start: `20211209T070000` | end: `20211209T080000` | loc: Beaver Creek DENTAL Kyle Smith, DDS 7652 Oak Ridge Hwy, Knoxville, TN  37931, United States
+- **House showing** | start: `20220907T170000` | end: `20220907T173000`
+- **Horse lesson** | start: `20230808T154500` | end: `20230808T164500`
+- **Moms birthday** | start: `20250626T150000` | end: `20250626T160000`
+- **Overholt full body** | start: `20230110T080000` | end: `20230110T090000`
+- **Marty - ExamOne - quest diagnostics - Met Life** | start: `20230206T090000` | end: `20230206T100000`
+- **IEP-B. Stewart-3-Davis** | start: `20220502T104500` | end: `20220502T111500` | loc: HVES Conference Room
+- **Baylee install ortho** | start: `20230914T092500` | end: `20230914T102500`
+- **IEP meeting** | start: `20220520T104500` | end: `20220520T111500`
+- **labcorp** | start: `20221222T131500` | end: `20221222T141500`
+- **Reservation: Monkeypod Kitchen - Waikiki** | start: `20251220T064500Z` | end: `20251220T081500Z` | loc: Monkeypod Kitchen - Waikiki 2169 Kālia Rd unit 111 Honolulu HI 96815-1936 United States
+- **School Holiday** | start: `20220221` | end: `20220222`
+- **Furniture assembly** | start: `20221221T090000` | end: `20221221T140000`
+- **Fountain city Endo Root check** | start: `20260303T160000` | end: `20260303T170000`
+- **Dinner with parents** | start: `20220904T173000` | end: `20220904T183000` | loc: West Town Mall 7600 Kingston Pike, Knoxville, TN 37919, United States
+- **Baylee’s ortho appt** | start: `20241121T081000` | end: `20241121T091000` | loc: East Tennessee Orthodontics 1143 Oak Ridge Tpke, Unit 206, Oak Ridge, TN  37830, United States
+- **Craig’s parents leave** | start: `20220616T165500` | end: `20220616T195500` | loc: Nashville International Airport 1 Terminal Dr, Nashville, TN 37214, United States
+- **Reservation at Miel Restaurant & Bar** | start: `20251003T010000Z` | end: `20251003T030000Z`
+- **Being Event** | start: `20221023T111500` | end: `20221023T130000`
+- **Flight: AA 5105 from DFW to TYS** | start: `20240715T185200` | end: `20240715T221300` | loc: Dallas/Fort Worth International Airport 2400 Aviation Drive, Dallas, TX 75261, United States
+- **Deep Well Farm pumpkin patch** | start: `20221029T120000` | end: `20221029T130000`
+- **Baylee vision appointment at 10:30** | start: `20241119T103000` | end: `20241119T113000`
+- **School holiday** | start: `20210906` | end: `20210907`
+- **Baylee ortho appt** | start: `20260121T073000` | end: `20260121T083000`
+- **Family fun night** | start: `20230331T170000` | end: `20230331T180000` | loc: Farragut Intermediate School 208 W End Ave, Farragut, TN 37934, United States
+- **Baylee Dr appt - Samantha pollard @1pm** | start: `20260303T123000` | end: `20260303T140500`
+- **House showing** | start: `20220907T173000` | end: `20220907T180000`
+- **Edmonton flight** | start: `20241127T053000` | end: `20241127T063000`
+- **AC install/fix ductwork** | start: `20210910T100000` | end: `20210910T110000`
+- **Orthadontist Pickering - rebook** | start: `20230622T085000` | end: `20230622T095000`
+- **Sleep Telehealth Craig** | start: `20240924T094000` | end: `20240924T104000`
+- **Pep Boys for Mini** | start: `20230211T131500` | end: `20230211T141500` | loc: 106 Market Place Blvd Knoxville, TN, United States
+- **Your appointment with Zen Nail Bar has been confirmed. {link}** | start: `20221119T121500` | end: `20221119T131500`
+- **Sage birthday** | start: `20210905T110000` | end: `20210905T120000`
+- **Lisa in town** | start: `20251017` | end: `20251023`
+- **Flight: AC 176 from YEG to YYZ** | start: `20211226T002000` | end: `20211226T060500` | loc: Edmonton International Airport Edmonton AB T5J 2T2 Canada
+- **Baylee dr online** | start: `20230124T133000` | end: `20230124T140000`
+- **Dancing bear?** | start: `20241102T180000` | end: `20241102T211500`
+- **Dermatologist** | start: `20220824T104500` | end: `20220824T114500`
+- **Reservation at Pacific Rim Bistro for 2** | start: `20221011T180000` | end: `20221011T200000` | loc: 303 Peachtree Center Ave NE, Atlanta, GA 30303
+- **6th Grade Band Concert (Thursday, October 17th @ 6:00 PM)** | start: `20241017T173000` | end: `20241017T183000`
+- **Talk to Tiffany's parents** | start: `20251109T190000` | end: `20251109T200000`
+- **Dinner at my parents to celebrate Breck & Craig's birthdays** | start: `20240309T150000` | end: `20240309T190000`
+- **Dr Sharma. Baylee** | start: `20230725T143000` | end: `20230725T153000`
+- **Pay Apple Card** | start: `20221230T220000` | end: `20221230T230000`
+- **Roofer - Innovative Solutions** | start: `20221206T160000` | end: `20221206T170000`
+- **BNA/BOI** | start: `20221227T081500` | end: `20221227T103200` | loc: Nashville (BNA) 07:15AM local time
+- **Flight from Edmonton to Toronto, departing at 00h55 (local time)** | start: `20231231T025500` | end: `20231231T064500` | loc: - AC178
+- **Stay** | start: `20251002` | end: `20251004` | loc: 1111 Airport Center Dr Nashville TN 37214 United States
+- **House photographer** | start: `20220823T170000` | end: `20220823T180000`
+- **Baylee Dr Appt** | start: `20230110T131500` | end: `20230110T141500` | loc: 2100 Clinch Avenue MOB Suite 310 Knoxville, TN 37916
+- **Craig hair 10:30 Messi Heads** | start: `20220413T103000` | end: `20220413T113000`
+- **Stair Project with Kristopher** | start: `20210914` | end: `20210918`
+- **Review house** | start: `20220904T093000` | end: `20220904T103000` | loc: 312 Russfield Dr, Knoxville, TN 37934
+- **Baylee Orthodontist at @2pm** | start: `20260326T133000` | end: `20260326T152000`
+- **HOA Meeting** | start: `20211002T100000` | end: `20211002T110000` | loc: 10132 Rockbrook Dr Knoxville, TN, United States
+- **Purelux Facial** | start: `20221229T150000` | end: `20221229T170000` | loc: Pure Luxe Salon, Spa & Medspa 10780 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Southeast Resto Manager for discussion** | start: `20230113T160000` | end: `20230113T170000`
+- **Summer school** | start: `20240529` | end: `20240627`
+- **House Cleaner** | start: `20210826T120000` | end: `20210826T160000`
+- **Being Journey Map Session** | start: `20230623T170000` | end: `20230623T180000` | loc: www.thebusinesscatalyst.co.uk/zoom
+- **Reservation at Itta Bena for 2** | start: `20230710T180000` | end: `20230710T200000` | loc: 145 Beale Street, Memphis, TN 38103
+- **Lashes - La Petit Spa** | start: `20220726T114500` | end: `20220726T124500` | loc: 6426 Baum Drive Suite E, Knoxville, Tennessee, 37919
+- **Reservation at KOYO Knoxville for 2** | start: `20221230T183000` | end: `20221230T203000` | loc: 416 Clinch Ave, Knoxville, TN 37902-2101
+- **Musical. Baylee's performance** | start: `20230308T173000` | end: `20230308T183000` | loc: Farragut Middle School 200 W End Ave, Farragut, TN 37934, United States
+- **Splash Country Waterpark with Tarah + Family** | start: `20230624T100000` | end: `20230624T180000` | loc: Dollywood's Splash Country
+- **VLS-E AI Call** | start: `20230815T210000` | end: `20230815T213000`
+- **Emily Kopek appt Craig** | start: `20250305T090000` | end: `20250305T100000`
+- **Cincinnati** | start: `20220827` | end: `20220830`
+- **Vehicle Service Request** | start: `20240106T153000Z` | end: `20240106T163000Z` | loc: 10117 Parkside Dr
+- **I NEED HELP! Extra large refill (Shari Lynch - Need Acceptance)** | start: `20221024T100000` | end: `20221024T113000` | loc: 6426 Baum Drive Suite E,Knoxville,Tennessee,37919
+- **House showing** | start: `20220908T080000` | end: `20220908T083000`
+- **Dr Emily appointment** | start: `20210930T100000` | end: `20210930T110000`
+- **Skin treatment Craig (Skin Wellness Center)** | start: `20210901T160000` | end: `20210901T163000`
+- **Interview Dinner with Craig** | start: `20230112T190000` | end: `20230112T210000`
+- **Emily Kopek testing Craig** | start: `20231206T090000` | end: `20231206T100000`
+- **Hair** | start: `20220403T110000` | end: `20220403T130000`
+- **Nails** | start: `20211002T113000` | end: `20211002T124500` | loc: Zen Nail Bar 9201 Middlebrook Pike, Knoxville, TN  37931, United States
+- **Christmas with parents** | start: `20240106T121500` | end: `20240106T190000` | loc: 721 Broome Rd Knoxville TN 37909 United States
+- **Lunch with parents** | start: `20250308T130000` | end: `20250308T143000` | loc: Carrabba's Italian Grill 324 N Peters Rd, Knoxville, TN  37922, United States
+- **Baylee ortho - put in retainer** | start: `20250623T082500` | end: `20250623T092500`
+- **Tiffany Working** | start: `20210926T130000` | end: `20210926T150000`
+- **Baylee's IEP Meeting** | start: `20230331T091500` | end: `20230331T101500` | loc: Requested virtual - need link
+- **Dr berg** | start: `20220802T120000` | end: `20220802T130000`
+- **Pool Party** | start: `20220805T173000` | end: `20220805T193000`
+- **Classical French Seafood Fare** | start: `20240120T170000` | end: `20240120T200000` | loc: The Cutting Edge Classroom
+- **Holiday Inn Express Reservation: Columbia for Bridges** | start: `20250623` | end: `20250624` | loc: Columbia
+- **Parent Night** | start: `20220822T170000` | end: `20220822T180000` | loc: Hardin Valley Elementary School 11445 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Drive to Nashville** | start: `20221226T131500` | end: `20221226T141500`
+- **Glow appt** | start: `20230809T093000` | end: `20230809T120000` | loc: Pure Luxe Salon, Spa & Medspa 10780 Hardin Valley Rd, Knoxville, TN  37932, United States
+- **Parents coming over for dinner** | start: `20240921T163000` | end: `20240921T190000`
+- **Stay: Liberty View Brooklyn Hotel** | start: `20250318` | end: `20250321` | loc: Liberty View Brooklyn Hotel 826 Fourth Ave, Brooklyn, NY 11232, United States
+- **School Holiday** | start: `20211124` | end: `20211127`
+- **Car rental drop-off: Rentalcars.com** | start: `20220124` | end: `20220125` | loc: Phoenix Sky Harbor Airport
+- **Skin Wellness appt Danielle Warren** | start: `20250429T095000` | end: `20250429T105000`
+- **Meeting with Topher** | start: `20211205T143000` | end: `20211205T153000` | loc: The Quarry 2320 Keller Bend Rd, Knoxville, TN  37922, United States
+- **Dinner** | start: `20210926T161500` | end: `20210926T181500` | loc: 721 Broome Rd Knoxville TN 37909 United States
+- **Skin Wellness appt Danielle Warren** | start: `20250527T082500` | end: `20250527T092500`
+- **Counseling** | start: `20220805T100000` | end: `20220805T110000`
+- **American Home Shield service appointment with PLUMB RITE OF EAST TENNESS** | start: `20240816T120000` | end: `20240816T140000`
+- **Flight from Toronto to Nashville, departing at 08h15 (local time)** | start: `20231231T081500` | end: `20231231T102900` | loc: - AC1105
+- **HOA Meeting** | start: `20230617T110000` | end: `20230617T120000` | loc: Pool
+- **Your Reservation Confirmation for The Melting Pot - Knoxville** | start: `20220730T194500` | end: `20220730T204500`
+- **Medical Exam (life insurance)** | start: `20220822T120000` | end: `20220822T130000` | loc: 10115 Highgate Circle Knoxville TN 37931 United States
+- **Lisa** | start: `20211004T120000` | end: `20211004T130000`
+- **Book COVID tests for all of us (travel)** | start: `20211206T133000` | end: `20211206T143000`
+- **Kevin - duct cleaning estimate** | start: `20230107T110000` | end: `20230107T120000`
+- **Nails** | start: `20230113T121500` | end: `20230113T131500` | loc: YOURS nail spa 10915 Parkside Dr, Knoxville, TN  37934, United States
+- **Drop off Zoe** | start: `20260310T160000` | end: `20260310T170000` | loc: All Kreatures Pet Care 11132 Outlet Dr, Knoxville, TN  37932, United States
+- **TYS/BOI** | start: `20220618T123000Z` | end: `20220618T142000Z` | loc: Knoxville (TYS) 08:30AM local time
+- **TYS/BOI** | start: `20220618T151500Z` | end: `20220618T190400Z` | loc: Chicago (ORD) 10:15AM local time
+- **TYS/BOI** | start: `20220723T203700Z` | end: `20220724T001200Z` | loc: Boise (BOI) 02:37PM local time
+- **TYS/BOI** | start: `20220724T011600Z` | end: `20220724T025300Z` | loc: Chicago (ORD) 08:16PM local time
+- **TYS/BOI** | start: `20241229T102400Z` | end: `20241229T132400Z` | loc: Knoxville (TYS) 05:24AM local time
+- **TYS/BOI** | start: `20241229T160300Z` | end: `20241229T193300Z` | loc: Dallas/ Fort Worth (DFW) 10:03AM local time
+- **TYS/BOI** | start: `20250104T140300Z` | end: `20250104T171900Z` | loc: Boise (BOI) 07:03AM local time
+- **TYS/BOI** | start: `20250104T151900` | end: `20250104T172600` | loc: Dallas/ Fort Worth (DFW) 12:19PM local time
+- **BNA/BOI** | start: `20230103T132400Z` | end: `20230103T163000Z` | loc: Boise (BOI) 06:24AM local time
+- **Genius Bar Reservation - Mac** | start: `20210911T150000` | end: `20210911T151500` | loc: West Town Mall 7600 Kingston Pike, Knoxville, Tennessee, 37919
+- **Ortho appt** | start: `20240108T100500` | end: `20240108T110500`
+- **Handy - Appliance Installation** | start: `20240615T180000Z` | end: `20240615T200000Z` | loc: 318 Sundown Rd, Knoxville, TN 37934
+- **Genius Bar Reservation - iPhone** | start: `20230626T161500` | end: `20230626T162500` | loc: West Town Mall 7600 Kingston Pike, Knoxville, Tennessee, 37919
+- **Genius Bar Reservation - AirPods** | start: `20220604T120000` | end: `20220604T121500` | loc: West Town Mall 7600 Kingston Pike, Knoxville, Tennessee, 37919
+- **Notary Services, Trip Fee-Notary services at The Trusty Notary** | start: `20221206T203000Z` | end: `20221206T213000Z` | loc: 318 Sundown Rd
+- **Handy - Moving Help** | start: `20240901T180000Z` | end: `20240901T200000Z` | loc: 318 Sundown Rd, Knoxville, TN 37934
+- **iPhone X (2017) Screen Repair at Farragut FixIt** | start: `20220604T170000Z` | end: `20220604T180000Z` | loc: 111 Center Park Drive, Suite 150
+- **Balayage Highlight WITH HAIRCUT Scheduled at Belleza Salon** | start: `20250926T133000Z` | end: `20250926T161500Z` | loc: 11467 Parkside Dr  Knoxville 37934 TN
+- **Turtle Canyon Snorkel (Semi-Private Boat Tour) with Captain Max Boat Tours** | start: `20251220T203000` | end: `20251220T220000` | loc: Kewalo Basin Harbor Pier C, 1125 Ala Moana Blvd,  Slip C-15, Honolulu, HI, 96814, US
+- **Your Appointment at Melt Wax Company** | start: `20240303T190000Z` | end: `20240303T192000Z` | loc: 12748 Kingston Pike Ste. 206, Farragut, TN 37934
+- **Obgyn** | start: `20220620T164500Z` | end: `20220620T174500Z`
+- **Baylee Dr appt - Samantha pollard @1pm** | start: `20260303T123000` | end: `20260303T143000`
+- **Meeting with Tamara** | start: `20221129T190000Z` | end: `20221129T191500Z`
+- **Tiffany Dr appt** | start: `20240424T083000` | end: `20240424T103000`
+- **Orthodontist** | start: `20220302T134500Z` | end: `20220302T144500Z`
+- **Baylee ortho** | start: `20240520T100000` | end: `20240520T110000`

@@ -1,0 +1,43 @@
+# Fireflies Transcripts Digest — 2026-03-15
+
+Pulled: 10 most recent transcripts
+
+## Mike with Melina
+- Date: 1773433800000
+- ID: `01KKH4V9PSHPECB0W1KZMB9BTS`
+
+## Mike with Aaron
+- Date: 1773430200000
+- ID: `01KKJAMKK0PQ5RAEDV5CWXGGY4`
+
+## michael.treschitta@netprofitexplosion.com - Fri, 13 Mar 2026 13:54:06 EDT - Untitled
+- Date: 1773424500000
+- ID: `01KKM5B2Q43AGVA90YAP6EPB06`
+
+## Mike with Angel
+- Date: 1773421200000
+- ID: `01KKFTPRY3W7XCK9F5GEMPDPE5`
+
+## Harry X NPE
+- Date: 1773414000000
+- ID: `01KKEV1VD88ZZJ3331QKZ70042`
+
+## Mason and Tonya 9pm EST
+- Date: 1773363600000
+- ID: `01KKEQ5QGZ5BQJP1JE8YNGDPZB`
+
+## Marketing DSU
+- Date: 1773356400000
+- ID: `01KKD8D9JWSFVCD5F9CJ4G1RYV`
+
+## Cynthia with Lucia 7pm EST
+- Date: 1773356400000
+- ID: `01KKE2J7NQM7AGCDG8M3VBKVTZ`
+
+## Johnny 5.30pm CST
+- Date: 1773354600000
+- ID: `01KKE2J89VMCWHHSE8ZWNWDKYA`
+
+## Brennan/Sean FF™ Workbook & Deck
+- Date: 1773352800000
+- ID: `01KKDB5G1W22VTDXXXWJPF05VB`

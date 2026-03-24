@@ -1,0 +1,8 @@
+- 🔌 Confirmed Obsidian access works; dropped “Finnick test” note to prove the link.
+- 📚 Read Life OS™ system files (Autonomy Ladder, routing rules, pulse logic, decision log) to lock in operating procedures.
+- 🗂️ Created `000_INBOX/Daily_Pulse_Log.md` so 10:30 AM pulses can append in one place.
+- 🎯 Pulled Apple Note “Goals” to anchor current priorities (NPE caps, finance/budget merge, AI books, ME OS™, house upgrades, travel, routines, OpenClaw infra, office reset).
+- 📝 Drafted IDENTIY.md + daily memory approach; awaiting Tiffany’s feedback on tone (witty + understanding) and logging preferences.
+- ⏰ Began wiring Apple Reminders via remindctl; need Tiffany to approve the macOS permission prompt so I can add tomorrow’s “email/calendar access” reminder.
+- ❤️ Planning a daily health-data cron; need a dependable Apple Health/Oura export location to parse readiness, sleep, HRV each morning.
+- ⏱️ Tiffany wants NPE workload capped at 30 hrs/week for now (update from earlier 20 hr target).
