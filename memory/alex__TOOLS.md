@@ -28,3 +28,10 @@ Answer from memory only if ALL tools are unavailable.
 URL: http://127.0.0.1:4000/v1/chat/completions
 Model: claude-sonnet-4-6
 Key: sk-finnick-lllm-9e6ddd906af7ab21
+
+## Apple Ecosystem (via MCP → MacBook Pro → Tailscale)
+MCP Server: `apple` (SSE at http://100.106.13.95:3100/sse)
+Requires: Tiffany's MacBook Pro awake + Tailscale connected
+Available: iMessage, Apple Notes, Apple Reminders, Calendar, Contacts, Mail, Maps
+If Mac is offline → tell Tiffany tools are temporarily unavailable, don't fail silently.
+See /skills/imessage/SKILL.md for iMessage rules (always draft before sending, never send without approval).
