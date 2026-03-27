@@ -1,0 +1,8 @@
+{
+  "category": "pattern",
+  "title": "Biometric tracking data sometimes has errors",
+  "summary": "Sleep tracking occasionally logs implausibly low hours (12 min) despite high sleep scores\u2014flag these as likely tracking errors rather than taking them at face value.",
+  "confidence": 0.8,
+  "saved_at": "2026-03-26T20:34:25.166183",
+  "agent": "alexandre"
+}

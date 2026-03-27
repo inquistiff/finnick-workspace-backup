@@ -1,0 +1,8 @@
+{
+  "category": "pattern",
+  "title": "Tiffany uses 'pre-wave' terminology for deployment phases",
+  "summary": "Tiffany references deployment waves (e.g., 'pre-wave 2') to indicate system readiness phases; useful context for understanding rollout scope and timing discussions.",
+  "confidence": 0.7,
+  "saved_at": "2026-03-27T00:34:11.969538",
+  "agent": "alexandre"
+}

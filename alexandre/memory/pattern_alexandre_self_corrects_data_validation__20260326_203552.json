@@ -1,0 +1,8 @@
+{
+  "category": "pattern",
+  "title": "Alexandre self-corrects data validation gaps",
+  "summary": "When tool integrations fail, Alexandre reassesses previous flags to distinguish between real issues and artifacts of incomplete data, prioritizing honesty about what can vs. cannot be verified.",
+  "confidence": 0.8,
+  "saved_at": "2026-03-26T20:35:52.206992",
+  "agent": "alexandre"
+}

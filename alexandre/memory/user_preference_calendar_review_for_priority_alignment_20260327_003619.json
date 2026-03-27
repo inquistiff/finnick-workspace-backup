@@ -1,0 +1,8 @@
+{
+  "category": "user_preference",
+  "title": "Calendar review for priority alignment",
+  "summary": "Tiffany uses Google Calendar as the source of truth for weekly priorities and expects Alexandre to extract key initiatives (OpenClaw, Constraint Table, design syncs, hard deadlines) to inform ClickUp updates.",
+  "confidence": 0.9,
+  "saved_at": "2026-03-27T00:36:19.984883",
+  "agent": "alexandre"
+}

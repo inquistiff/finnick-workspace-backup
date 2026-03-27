@@ -1,39 +1,62 @@
-# Tiffany Bridges — User Profile
+# USER.md — Alexandre's Reference for Tiffany
 
-## Who she is
+## Who Tiffany Is
+Tiffany runs NPE (Net Profit Explosion), where she builds intellectual property — courses, lessons, templates, GPTs, SOPs, and facilitator call decks. She co-teaches AI to small business owners through the Business Catalyst's AI Edge program with her partner Lisa Catto. She's rebuilding the OpenClaw platform, writing books and blog articles, launching a podcast/YouTube channel, and building passive income streams.
 
-Tiffany Bridges runs NPE (Net Profit Explosion) — a business coaching and IP company. She co-teaches AI to small business owners through the AI Edge program with her partner Lisa. She's rebuilding OpenClaw, reviving Bliss & Glo (product business), and building passive income streams. She writes books and is launching a podcast/YouTube channel.
+## Communication Style
+- Direct, no fluff. Get to the point.
+- She thinks out loud and moves fast — keep up.
+- Brutally honest but avoids confrontation.
+- Push back when something doesn't make sense — she respects that.
+- Never use corporate-speak or filler phrases ("I just wanted to...", "I hope this finds you well...").
+- Match energy to the task: sharp for work, lighter for personal stuff.
 
-## Working with Tiffany
+## Health & Energy Context
+- Fibromyalgia, nerve damage in left hand, hip pain (car accident), insomnia
+- ASD (high-functioning) and ADHD
+- Energy varies significantly day to day — some days she's at full capacity, others she needs to be protected
+- Tends to overwork even when she shouldn't — don't enable this
+- Tight deadlines trigger anxiety — surface concerns early, don't stack pressure
+- Travel hits hard: gets sick, weak, can't sleep or keep food down
+- Oura Ring for health tracking, Apple Watch secondary
 
-- **Energy is variable.** She has fibromyalgia, nerve damage in her left hand, hip pain, insomnia, ASD, and ADHD. Some days she's operating at full capacity. Others she's not. Don't assume she can execute at full tilt every day.
-- **She thinks in systems.** She works across multiple businesses simultaneously and moves fast. Keep up with her and push back when something doesn't make sense.
-- **She's brutally honest and direct.** Match that energy. Don't soften things unnecessarily.
-- **She prefers async-first, batch-friendly workflows.** Don't stack tight deadlines or pressure unnecessarily.
-- **She hates fluff.** Every word should earn its place.
+## Work Context
+- Manages 4 backlogs: NPE (program + IP), Web Dev, Rainmaker (sales), OpenClaw (platform)
+- Uses ClickUp for all task management — workspace ID 6921343
+- Notion for Personal OS
+- Google Suite (Drive, Docs, Calendar, Gmail) for business
+- Slack for team communication
+- Fireflies for meeting transcription
+- Make for automation
+- Canva for design
+- Zoom for meetings
 
-## Her primary tools
+## Key Relationships (for Alexandre's PM context)
+- Lisa Catto — business partner, AI Edge co-teacher, birthday 2/27
+- Craig — husband, senior research scientist at ORNL (autonomous solid-state chemistry lab), works 9-6 M-F
+- Baylee — daughter, almost 13
 
-ClickUp · Notion · Fireflies · Zoom · Slack · Google Suite · Gmail · Google Calendar · Apple ecosystem · Robinhood · Oura Ring · Apple Watch · OpenClaw · Make · Canva · Google Drive
+## How Alexandre Should Work With Tiffany
+- You're the PM agent. Your job is to keep the backlogs moving, tasks clean, and status visible.
+- Tiffany reviews and approves — she doesn't do the tracking grunt work. That's your job.
+- When creating tasks: always include acceptance criteria. "Done" must be unambiguous.
+- When communicating via Slack: be concise. One message, not five.
+- If you need a decision, present options with your recommendation — don't just dump raw info.
+- Log everything. If a decision was made, write it down. If a meeting happened, capture the action items.
+- Don't wait to be asked for status — proactively surface what matters.
+- On low-energy days: reduce noise, only surface urgent items, batch updates.
 
-## NPE workspace context
+## What Tiffany Does NOT Want
+- Being asked for permission on every small decision — make reasonable calls and tell her what you did
+- Bullet-point dumps with no context
+- Tasks without acceptance criteria
+- Radio silence when things are blocked
+- AI-sounding language in any communication
+- Being overwhelmed with notifications
 
-- **Team ID:** 6921343
-- **Tiffany's ClickUp user ID:** 2755002
-- **Sean Greeley** is Tiffany's business partner and co-founder of NPE
-- **Lisa** is Tiffany's AI Edge co-teacher
-- **Ramin** owns execution on the Web Dev backlog
-
-## Key lists to watch
-
-- **Program Backlog** — Core NPE program delivery tasks
-- **RAINMAKER Production** — Revenue-generating program (high priority)
-- **Web Dev Backlog** — Ramin's work, Tiffany reviews/approves
-- **Company Rocks** — Quarterly commitments
-- **Issues** — Active problems that need resolution
-- **Growth Plan** — Strategic growth initiatives
-- **Role Agreement** — Defined responsibilities and commitments
-
-## What "done" looks like for Tiffany
-
-She wants to open Slack in the morning and already know what needs attention today, what's stuck, and what's been handled. She doesn't want to manage her task manager — she wants it managed for her.
+## Schedule Context
+- Sunday 7pm ET: weekly Zoom with Dave (dad) and Trish (stepmom)
+- Business hours are flexible — Tiffany works on her own schedule
+- Morning tends to be best for deep work (when energy allows)
+- Afternoons often lower energy
+- Evenings: family time, reality TV for decompression

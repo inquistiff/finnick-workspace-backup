@@ -2,57 +2,61 @@
 
 ## Rule: LLM reasons. Tools execute.
 
----
-
-## Wave 1 — Active
-
-### memory-core (plugin: loaded)
-- Tool handles: file-backed memory search, CLI commands
-- LLM handles: what to store, pattern synthesis
-- Path: /home/node/.openclaw/workspace/finnick/memory/
-
-### Filesystem (exec-approved)
-- Approved: /usr/bin/date, /usr/bin/uptime, /bin/ls, /bin/cat, /bin/grep, /usr/bin/python3, workspace/**
-- Blocked: rm, curl, docker, sudo, ssh (need approval)
-
-### Git Backup
-- Repo: github.com/inquistiff/finnick-workspace-backup (private)
-- Cron: 2am daily — fully automated, no LLM
-
-### rclone → Google Drive
-- Remote: Finnick → Finnick:Finnick-OS-Backups/data
-- Cron: 3am nightly — fully automated
+**Last verified:** 2026-03-26 | **Source of truth:** `finnick-telegram-bot-v2.py` TOOLS list
 
 ---
 
-## Wave 2 — Planned
+## Live Tools (17 total)
 
-### Google / gog skill (W2-00)
-- Gmail read · Calendar read/write · Drive read
-- Tool handles: API calls, data fetch
-- LLM handles: composing, prioritizing, summarizing
+### Health
+- `get_oura_data` — Readiness, sleep, HRV, activity from Oura Ring
 
-### Oura Ring API (W2-01)
-- Poll readiness/sleep/HRV
-- Tool handles: API + storage
-- LLM handles: interpretation, health coaching
+### Tasks & Work
+- `get_clickup_tasks` — Pull backlog (program / webdev / rainmaker)
+- `create_clickup_task` — Add a new task to ClickUp
+- `update_task_status` — Mark tasks in progress, complete, blocked, etc.
+- `add_task_comment` — Log notes or updates to a task
+
+### Calendar
+- `get_calendar_events` — Google Calendar (work/schedule)
+- `get_ical_events` — Apple/iCloud Calendar (personal/family)
+
+### Email
+- `search_gmail` — Search Gmail inbox
+- `check_icloud_mail` — Search iCloud/personal email
+
+### Meetings
+- `search_meetings` — Search Fireflies transcripts by topic
+- `get_action_items` — Pull open action items from recent meetings
+
+### Notion
+- `search_notion` — Search Notion workspace / Life OS
+- `get_notion_page` — Fetch full content of a specific page
+
+### Memory & Files
+- `write_memory` — Persist something important to long-term memory on disk
+- `read_memory` — Read recent memory entries or search by keyword
+- `read_file` — Read any file in workspace (SOUL.md, USER.md, config, etc.)
+- `list_files` — List files in a workspace directory
+
+---
+
+## Architecture Note
+
+Finnick's tools are defined in `finnick-telegram-bot-v2.py` as Python dicts in OpenAI function-calling format. They are sent directly to LiteLLM in each API call. They are NOT OpenClaw gateway tools. To add a new tool: (1) add a definition to the `TOOLS` list, (2) add a handler in `execute_tool()`, (3) redeploy the bot.
+
+---
+
+## Planned (Wave 2+)
+
+### Google Drive (W2-00)
+- Gmail compose · Calendar write · Drive read/write
 
 ### Apple Ecosystem (W2-03)
-- iCal, Reminders, Notes via Mac Mini SSH relay
-- Family calendar, Baylee school events
+- iCal write, Reminders, Notes via MacBook Pro Apple Bridge (port 3200)
 
----
+### Obsidian (W2-13)
+- QMD memory layer, vault: 6185d9c0fde5caeb
 
-## Wave 3+ — Future
-
-### Telegram (W1-14/W1-15)
-Primary chat interface.
-
-### Obsidian (vault: 6185d9c0fde5caeb)
-QMD memory layer (W2-13).
-
-### ClickUp
-Read context; Alexandre owns writes.
-
-### Fireflies (W2-00a)
-Transcript retrieval via GraphQL.
+### Image Generation (W3-03)
+- Native Gemini API for illustrations

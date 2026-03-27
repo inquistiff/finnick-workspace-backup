@@ -82,5 +82,68 @@
     "title": "File-based memory persists across sessions",
     "summary": "Alexandre's memory is stored at `/opt/openclaw/data/workspace/alexandre/memory/` on the VPS, loaded at startup and written after significant interactions, enabling cross-session context retention.",
     "saved_at": "2026-03-23T19:30:18.178149"
+  },
+  {
+    "file": "user_preference_quick_reassessment_on_demand_during_day_20260326_203425.json",
+    "category": "user_preference",
+    "title": "Quick reassessment on demand during day",
+    "summary": "Tiffany uses 'reassess please' as a shorthand to get an updated snapshot of her readiness, schedule, and energy status mid-day\u2014use this as a recurring check-in pattern she values.",
+    "saved_at": "2026-03-26T20:34:25.165350"
+  },
+  {
+    "file": "pattern_biometric_tracking_data_sometimes_has_er_20260326_203425.json",
+    "category": "pattern",
+    "title": "Biometric tracking data sometimes has errors",
+    "summary": "Sleep tracking occasionally logs implausibly low hours (12 min) despite high sleep scores\u2014flag these as likely tracking errors rather than taking them at face value.",
+    "saved_at": "2026-03-26T20:34:25.166183"
+  },
+  {
+    "file": "technical_fireflies_integration_has_bug_in_search__20260326_203552.json",
+    "category": "technical",
+    "title": "Fireflies integration has bug in search function",
+    "summary": "The fireflies-helper.py script has a sequence type error at line 151 that breaks meeting context retrieval, preventing validation of flagged items\u2014needs fixing before relying on Fireflies data.",
+    "saved_at": "2026-03-26T20:35:52.206408"
+  },
+  {
+    "file": "pattern_alexandre_self_corrects_data_validation__20260326_203552.json",
+    "category": "pattern",
+    "title": "Alexandre self-corrects data validation gaps",
+    "summary": "When tool integrations fail, Alexandre reassesses previous flags to distinguish between real issues and artifacts of incomplete data, prioritizing honesty about what can vs. cannot be verified.",
+    "saved_at": "2026-03-26T20:35:52.206992"
+  },
+  {
+    "file": "pattern_biometric_data_includes_readiness_and_hr_20260327_001119.json",
+    "category": "pattern",
+    "title": "Biometric data includes readiness and HRV metrics",
+    "summary": "Tiffany's health tracking includes Readiness score, Sleep duration, and HRV (heart rate variability) metrics that Alexandre should reference when assessing her energy levels and capacity for the day.",
+    "saved_at": "2026-03-27T00:11:19.876688"
+  },
+  {
+    "file": "technical_alexandre_fully_functional_and_systems_v_20260327_003411.json",
+    "category": "technical",
+    "title": "Alexandre fully functional and systems verified",
+    "summary": "All primary integrations (Oura, ClickUp, Google Calendar, Slack, Gmail, Fireflies, Notion) confirmed operational as of Mar 27; Alexandre ready for full task execution and health monitoring.",
+    "saved_at": "2026-03-27T00:34:11.968728"
+  },
+  {
+    "file": "pattern_tiffany_uses_pre_wave_terminology_for_de_20260327_003411.json",
+    "category": "pattern",
+    "title": "Tiffany uses 'pre-wave' terminology for deployment phases",
+    "summary": "Tiffany references deployment waves (e.g., 'pre-wave 2') to indicate system readiness phases; useful context for understanding rollout scope and timing discussions.",
+    "saved_at": "2026-03-27T00:34:11.969538"
+  },
+  {
+    "file": "user_preference_calendar_review_for_priority_alignment_20260327_003619.json",
+    "category": "user_preference",
+    "title": "Calendar review for priority alignment",
+    "summary": "Tiffany uses Google Calendar as the source of truth for weekly priorities and expects Alexandre to extract key initiatives (OpenClaw, Constraint Table, design syncs, hard deadlines) to inform ClickUp updates.",
+    "saved_at": "2026-03-27T00:36:19.984883"
+  },
+  {
+    "file": "pattern_clickup_needs_regular_syncing_with_calen_20260327_003619.json",
+    "category": "pattern",
+    "title": "ClickUp needs regular syncing with calendar",
+    "summary": "Tiffany mentions ClickUp updates in context of calendar review, suggesting Alexandre should proactively identify calendar priorities that need to be reflected in ClickUp tasks/statuses.",
+    "saved_at": "2026-03-27T00:36:19.985484"
   }
 ]

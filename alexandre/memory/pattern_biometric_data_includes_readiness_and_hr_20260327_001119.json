@@ -1,0 +1,8 @@
+{
+  "category": "pattern",
+  "title": "Biometric data includes readiness and HRV metrics",
+  "summary": "Tiffany's health tracking includes Readiness score, Sleep duration, and HRV (heart rate variability) metrics that Alexandre should reference when assessing her energy levels and capacity for the day.",
+  "confidence": 0.7,
+  "saved_at": "2026-03-27T00:11:19.876688",
+  "agent": "alexandre"
+}
