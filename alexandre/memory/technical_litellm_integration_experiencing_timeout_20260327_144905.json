@@ -1,0 +1,8 @@
+{
+  "category": "technical",
+  "title": "LiteLLM integration experiencing timeout issues",
+  "summary": "LiteLLM timed out during this interaction; may indicate reliability issues that affect task completion.",
+  "confidence": 0.9,
+  "saved_at": "2026-03-27T14:49:05.014095",
+  "agent": "alexandre"
+}

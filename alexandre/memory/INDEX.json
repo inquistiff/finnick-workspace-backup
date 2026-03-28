@@ -145,5 +145,40 @@
     "title": "ClickUp needs regular syncing with calendar",
     "summary": "Tiffany mentions ClickUp updates in context of calendar review, suggesting Alexandre should proactively identify calendar priorities that need to be reflected in ClickUp tasks/statuses.",
     "saved_at": "2026-03-27T00:36:19.985484"
+  },
+  {
+    "file": "user_preference_pressure_test_requests_against_growth_pl_20260327_144905.json",
+    "category": "user_preference",
+    "title": "Pressure test requests against growth plan",
+    "summary": "Tiffany asks Alexandre to validate initiatives against her growth plan and calendar before proceeding; this is a key decision-making filter.",
+    "saved_at": "2026-03-27T14:49:05.011997"
+  },
+  {
+    "file": "business_context_primary_offer_snapshot_moved_to_end_of_a_20260327_144905.json",
+    "category": "business_context",
+    "title": "Primary Offer Snapshot moved to end of April",
+    "summary": "Timeline adjustment: Primary Offer Snapshot initiative rescheduled to end of April rather than earlier date.",
+    "saved_at": "2026-03-27T14:49:05.012676"
+  },
+  {
+    "file": "business_context_at_risk_tracking_assigned_to_lucia_and_r_20260327_144905.json",
+    "category": "business_context",
+    "title": "At-risk tracking assigned to Lucia and Ramin",
+    "summary": "Ownership assignment: Lucia and Ramin are responsible for 'Fix at risk tracking' initiative.",
+    "saved_at": "2026-03-27T14:49:05.013188"
+  },
+  {
+    "file": "pattern_tiffany_structures_work_with_call_cadenc_20260327_144905.json",
+    "category": "pattern",
+    "title": "Tiffany structures work with call cadence framework",
+    "summary": "Tiffany organizes initiatives by call structure and cadence (e.g., 'AM Call structure and cadence'); this is a recurring organizational pattern.",
+    "saved_at": "2026-03-27T14:49:05.013613"
+  },
+  {
+    "file": "technical_litellm_integration_experiencing_timeout_20260327_144905.json",
+    "category": "technical",
+    "title": "LiteLLM integration experiencing timeout issues",
+    "summary": "LiteLLM timed out during this interaction; may indicate reliability issues that affect task completion.",
+    "saved_at": "2026-03-27T14:49:05.014095"
   }
 ]
