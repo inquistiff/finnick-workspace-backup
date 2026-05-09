@@ -38,3 +38,12 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+---
+
+## Service Inventory + Runbook (canonical)
+
+This file used to be a template. The actual service inventory + config map + secret map + boot order + spend tracking architecture lives in **HERMES_RUNBOOK.md** (same dir + a copy in OpenClaw/ on Tiffany's laptop).
+
+Read it BEFORE doing system work. Update it WHEN system facts change.
+
