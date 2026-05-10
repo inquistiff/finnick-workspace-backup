@@ -159,6 +159,21 @@ All secrets live ONLY in these files. Do NOT hardcode in compose / code.
 
 ## 5. Network map
 
+> **⚠️ CRITICAL — Docker bypasses UFW.** Docker manipulates iptables via its own `DOCKER` chain, processed BEFORE UFW's `INPUT` rules. UFW DENY rules **do NOT block Docker-published ports**. Any container with `ports: - NN:NN` in compose binds 0.0.0.0:NN and is **publicly reachable** regardless of UFW configuration.
+>
+> **Required pattern for non-public Docker services:**
+> ```yaml
+> ports:
+>   - 127.0.0.1:NN:NN   # ← bind loopback explicitly
+> ```
+> Verify after recreate: `sudo ss -ltnp | grep :NN` should show `127.0.0.1:NN`, NOT `0.0.0.0:NN`.
+>
+> **Auto-detection:** `/opt/hermes/security-crons/tier1-infra/public-port-audit.sh` runs every 15 min. Greps `ss -ltnp` for `docker-proxy` listeners on `0.0.0.0`, escalates `public_port_audit` (critical) on violation. Allowlist (currently empty — no Docker container should bind public): edit script to add.
+>
+> **Incident history (2026-05-08):** `langfuse-minio-1 :9090` and `langfuse-langfuse-web-1 :3000` both bound 0.0.0.0 by default in their compose. Phase 2B added UFW DENY rules — they appeared to work — but external probes from off-VPS confirmed both ports reachable until both were rebound to 127.0.0.1 in `/opt/langfuse/docker-compose.yml`. CF Access tunnel still functions for `langfuse.finnick.xyz` (routes through 127.0.0.1:3000).
+
+
+
 ```
                     Internet
                        │
