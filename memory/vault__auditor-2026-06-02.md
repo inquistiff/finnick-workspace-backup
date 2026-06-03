@@ -1,6 +1,6 @@
 # Hermes Auditor Verdict — 2026-06-02
 
-**Generated:** 2026-06-02T02:18:35.411355+00:00
+**Generated:** 2026-06-02T14:00:02.350843+00:00
 **Verdict:** 🟡 NOT HEALTHY (criteria failing below)
 
 ## Operational health criteria
@@ -15,13 +15,13 @@
 
 ## The 5-bucket
 
-**1. Rate of creation:** 497 in last 24h vs 7d baseline 139.3 ± 165.7 (z=+2.2, HIGH)
+**1. Rate of creation:** 368 in last 24h vs 7d baseline 137.9 ± 153.4 (z=+1.5, OK)
 
-**2. Rate of resolution:** 490 in last 24h
+**2. Rate of resolution:** 358 in last 24h
 
-**3. Net debt:** +7 (created - resolved). Queue growing.
+**3. Net debt:** +10 (created - resolved). Queue growing.
 
-**4. Top-3 runaways (>25% of 24h volume):** D-NEWSFB (462)
+**4. Top-3 runaways (>25% of 24h volume):** D-NEWSFB (312)
 
 **5. Starved real-signals (open warning+ >24h):**
   - #6614 (warning, D-PWG-REFUSED): D-PWG-REFUSED: prod-write-gate.sh refusal/partial-release th
@@ -32,13 +32,13 @@
 
 ## Open queue snapshot
 
-**Total open:** 26
-  - critical: 9
-  - warning: 17
+**Total open:** 28
+  - critical: 5
+  - warning: 23
 
 ## Infrastructure
 
-**syscron_health:** 127/135 ok
+**syscron_health:** 127/134 ok
 
 ## Recommended next session focus
 
