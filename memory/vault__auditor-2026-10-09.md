@@ -1,0 +1,48 @@
+# Hermes Auditor Verdict — 2026-10-09
+
+**Generated:** 2026-10-09T14:00:02.415407+00:00
+**Verdict:** 🟡 NOT HEALTHY (criteria failing below)
+
+## Operational health criteria
+
+| Criterion | Status |
+|---|---|
+| ≤25 created/24h | ❌ |
+| no runaway >25% | ✅ |
+| syscron 100% ok | ❌ |
+| net debt ≤0 | ✅ |
+| no starved real-signals >7d | ❌ |
+
+## The 5-bucket
+
+**1. Rate of creation:** 3380 in last 24h vs 7d baseline 2347.6 ± 1226.2 (z=+0.8, OK)
+
+**2. Rate of resolution:** 3383 in last 24h
+
+**3. Net debt:** -3 (created - resolved). Queue draining.
+
+**4. Top-3 runaways (>25% of 24h volume):** none
+
+**5. Starved real-signals (open warning+ >24h):**
+  - #110300 (warning, D10): T1-exhausted: D10 same-body ×5075
+  - #126471 (warning, D08): T1-exhausted: D08 same-body ×569
+  - #132027 (warning, D55): T1-exhausted: D55 same-body ×536
+
+## Open queue snapshot
+
+**Total open:** 13
+  - critical: 4
+  - warning: 9
+
+## Infrastructure
+
+**syscron_health:** 119/129 ok
+
+## Recommended next session focus
+
+1. **Fix syscron_health errors first** — they block trust in all other signals.
+4. **Volume above threshold** — escalations creating faster than baseline.
+
+---
+
+*Auditor daily cron — W3.4. Source: /home/openclawops/.hermes/scripts/auditor_daily.py*
